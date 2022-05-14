@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameJam00/MainMenu.unity
+    guid: 7e8e4bc0c49b058428f2a6442a4ad4eb
+  - enabled: 1
+    path: Assets/Scenes/GameJam00/Adventure.unity
+    guid: 8558d1a4c26c79547863e32d16fa3f89
+  - enabled: 1
+    path: Assets/Scenes/GameJam00/EndingCredits.unity
+    guid: 3fba3a7a46e48c54fa5d1ebc9a2dec24
+  m_configObjects: {}
