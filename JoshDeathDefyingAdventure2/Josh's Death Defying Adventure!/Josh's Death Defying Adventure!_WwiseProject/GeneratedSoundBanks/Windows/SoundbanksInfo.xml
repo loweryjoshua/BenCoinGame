@@ -11,16 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2442522552">
+		<SoundBank Id="133642231" Language="SFX" Hash="3023498861">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="98870701" Name="Coin_Pickup" ObjectPath="\Events\Default Work Unit\Coin_Pickup" DurationType="OneShot" DurationMin="3.263024" DurationMax="3.263024">
+				<Event Id="98870701" Name="Coin_Pickup" ObjectPath="\Events\Objects\Coin_Pickup" DurationType="OneShot" DurationMin="3.263024" DurationMax="3.263024">
 					<IncludedMemoryFiles>
 						<File Id="992970694" Language="SFX">
 							<ShortName>Coin_Pickup.wav</ShortName>
 							<Path>SFX\Coin_Pickup_B2EFF3DE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
+					<IncludedMemoryFiles>
+						<File Id="406813184" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

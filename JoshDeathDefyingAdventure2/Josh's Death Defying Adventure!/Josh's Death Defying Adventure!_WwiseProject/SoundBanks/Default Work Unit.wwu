@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Objects" ID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player" ID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_Pickup" ID="{F28754BE-4A58-4332-BD45-13DCF92AF789}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reset" ID="{83943CC1-E27D-4830-94CC-BB0D370FDE3F}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

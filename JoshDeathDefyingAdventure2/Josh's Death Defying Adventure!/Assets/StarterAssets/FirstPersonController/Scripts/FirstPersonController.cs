@@ -190,7 +190,10 @@ namespace StarterAssets
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
-			
+
+			//Hey Ben! Is this how to do it?? haha
+			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
+
 			if (_input.move != Vector2.zero)
 			{
 				// move
@@ -202,6 +205,8 @@ namespace StarterAssets
 				_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 			} else
             {
+				//Can we let the player fall for exactly 1.3 more seconds after the playresetsound() is called? That way the SFX linesup with the reset
+				wwiseEvent.PlayResetSound();
 				PlayerDeath();
             }
 			// move the player

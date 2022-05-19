@@ -4221,6 +4221,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1916341402}
     m_Modifications:
+    - target: {fileID: 591288680025703159, guid: de6fa18c520bc704e881c4733c4d6dca, type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d47c412b1bb1fb64aa4273d28d3c4bc7, type: 2}
     - target: {fileID: 4714758608991802975, guid: de6fa18c520bc704e881c4733c4d6dca, type: 3}
       propertyPath: triggerObject
       value: 

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 569d666ab609794a8cc09657b44a3b6b
     GuidInternal: 
-    m_lastTime: -8585486711306152079
+    m_lastTime: -8585486369961725303
     List:
     - name: General
       guid: 2f2c605b8a6a9149a170ac55774a54f6
@@ -167,8 +167,8 @@ MonoBehaviour:
         guid: c13c94837de2304894ccbb0d370fde3f
       Path: Events\Player\Reset
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.374989
+      minDuration: 1.374989
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
