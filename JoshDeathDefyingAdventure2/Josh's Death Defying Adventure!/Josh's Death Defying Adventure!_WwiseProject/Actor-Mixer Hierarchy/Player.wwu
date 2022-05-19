@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" SchemaVersion="103" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" OwnerID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Reset" ID="{153540E8-DD54-4958-A915-25238E4FD174}" ShortID="17298497">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Reset" ID="{E7E7FFBA-0D63-4BA3-865E-AF445DADE0B4}">
+							<Language>SFX</Language>
+							<AudioFile>Reset.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="406813184"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Reset" ID="{E7E7FFBA-0D63-4BA3-865E-AF445DADE0B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

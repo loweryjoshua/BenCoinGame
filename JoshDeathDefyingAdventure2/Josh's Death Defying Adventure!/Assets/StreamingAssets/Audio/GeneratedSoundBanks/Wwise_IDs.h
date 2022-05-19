@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID COIN_PICKUP = 98870701U;
+        static const AkUniqueID RESET = 4017455162U;
     } // namespace EVENTS
 
     namespace BANKS

@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{533F2AA5-579F-4AE7-8D5B-5DE0C7261109}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\OneDrive - University of Louisville\COMPOSITION\Electronic\Songs\Coin Game\Bounces\"/>
+				<Property Name="Event Action List\{83943CC1-E27D-4830-94CC-BB0D370FDE3F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F28754BE-4A58-4332-BD45-13DCF92AF789}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -25,7 +26,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="73/qIHjVhEmGQfvjo7cYTQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="LyxgW4pqkUmhcKxVd0pU9g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="qN2VWIGWB0Kn1zMqV1m9dwEpcu3/////d4w4VnMH2kix1iRI53U5dAEpcu3/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="qN2VWIGWB0Kn1zMqV1m9dwEpr0n/////d4w4VnMH2kix1iRI53U5dAEpr0n/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

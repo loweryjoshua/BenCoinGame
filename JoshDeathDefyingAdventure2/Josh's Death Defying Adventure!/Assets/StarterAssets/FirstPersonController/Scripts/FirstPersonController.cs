@@ -2,7 +2,6 @@
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
-
 namespace StarterAssets
 {
 	[RequireComponent(typeof(CharacterController))]
@@ -191,6 +190,7 @@ namespace StarterAssets
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
+			
 			if (_input.move != Vector2.zero)
 			{
 				// move
@@ -209,7 +209,7 @@ namespace StarterAssets
 
 		private void PlayerDeath()
         {
-			Debug.Log("Player has died!");
+            Debug.Log("Player has died!");
 			// teleport player to start of area
 			_controller.enabled = false;
 			_controller.transform.position = new Vector3(0f, 1f, -1f);

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98870701	Coin_Pickup			\Default Work Unit\Coin_Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	992970694	Coin_Pickup	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin_Pickup_B2EFF3DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin_Pickup		575660
+

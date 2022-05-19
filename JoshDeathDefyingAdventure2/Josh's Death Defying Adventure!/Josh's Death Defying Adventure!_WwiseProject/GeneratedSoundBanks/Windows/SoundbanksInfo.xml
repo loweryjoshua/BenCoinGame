@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="720216194">
+		<SoundBank Id="133642231" Language="SFX" Hash="2442522552">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -20,7 +20,7 @@
 					<IncludedMemoryFiles>
 						<File Id="992970694" Language="SFX">
 							<ShortName>Coin_Pickup.wav</ShortName>
-							<Path>SFX\Coin_Pickup_1F511998.wem</Path>
+							<Path>SFX\Coin_Pickup_B2EFF3DE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

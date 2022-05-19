@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" SchemaVersion="103" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
+	<AudioObjects>
+		<WorkUnit Name="Objects" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" OwnerID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Coin_Pickup" ID="{9682F7FD-E67C-4DF6-82EA-234E0709D221}" ShortID="1037269895">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6F7103D7-FB11-4CF5-BDAD-6401795417E2}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Coin_Pickup" ID="{B6FE7924-112A-44AD-A914-02EB4A8085AB}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.59212198221092"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.26302414231259"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Coin_Pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="992970694"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Coin_Pickup" ID="{B6FE7924-112A-44AD-A914-02EB4A8085AB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
