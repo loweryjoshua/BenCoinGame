@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98870701	Coin_Pickup			\Objects\Coin_Pickup	
+	4017455162	Reset			\Player\Reset	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	406813184	Reset	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Windows\SFX\Reset_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Reset		16382
+	992970694	Coin_Pickup	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Windows\SFX\Coin_Pickup_F8A4004E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Coin_Pickup		57928
+

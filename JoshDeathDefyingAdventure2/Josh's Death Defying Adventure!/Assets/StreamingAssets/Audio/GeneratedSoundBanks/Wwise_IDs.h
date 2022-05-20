@@ -14,13 +14,46 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID COIN_PICKUP = 98870701U;
+        static const AkUniqueID MAINGAME_MUSIC = 4271964152U;
         static const AkUniqueID RESET = 4017455162U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC_REGIONS
+        {
+            static const AkUniqueID GROUP = 2106907484U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ENDING = 3966194980U;
+                static const AkUniqueID MAINGAME = 1731745708U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSIC_REGIONS
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace SURFACE_TYPE
+        {
+            static const AkUniqueID GROUP = 4064446173U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BLOCK = 4001580976U;
+                static const AkUniqueID STAIR = 1164367372U;
+            } // namespace SWITCH
+        } // namespace SURFACE_TYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID GENERAL = 133642231U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

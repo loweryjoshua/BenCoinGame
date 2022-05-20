@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 569d666ab609794a8cc09657b44a3b6b
     GuidInternal: 
-    m_lastTime: -8585486369961725303
+    m_lastTime: -8585485485620598054
     List:
-    - name: General
-      guid: 2f2c605b8a6a9149a170ac55774a54f6
-      id: 133642231
+    - name: Music
+      guid: 810138230a8b884fab3b383b117f608a
+      id: 3991942870
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,10 +78,24 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 569d666ab609794a8cc09657b44a3b6b
-      - ElementName: General
+      - ElementName: Music
+        ObjectType: 7
+        guid: 810138230a8b884fab3b383b117f608a
+      Path: SoundBanks\Default Work Unit\Music
+    - name: SFX
+      guid: 2f2c605b8a6a9149a170ac55774a54f6
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 569d666ab609794a8cc09657b44a3b6b
+      - ElementName: SFX
         ObjectType: 7
         guid: 2f2c605b8a6a9149a170ac55774a54f6
-      Path: SoundBanks\Default Work Unit\General
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -107,8 +121,42 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 1a9fdf68c05f6246bf93dc719530a77b
     GuidInternal: 
-    m_lastTime: -8585486711963555170
-    List: []
+    m_lastTime: -8585485754726621617
+    List:
+    - name: MainGame_Music
+      guid: 8582f5b0ccbacf4ea9ddafc3ba557459
+      id: 4271964152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 1a9fdf68c05f6246bf93dc719530a77b
+      - ElementName: MainGame_Music
+        ObjectType: 3
+        guid: 8582f5b0ccbacf4ea9ddafc3ba557459
+      Path: Events\Music\MainGame_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu_Music
+      guid: 698b3bd33a78b04a99cd31333662fcf0
+      id: 4055567060
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 1a9fdf68c05f6246bf93dc719530a77b
+      - ElementName: Menu_Music
+        ObjectType: 3
+        guid: 698b3bd33a78b04a99cd31333662fcf0
+      Path: Events\Music\Menu_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Objects.wwu
     PathAndIcons:
     - ElementName: Events
@@ -150,7 +198,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: b6d8f9a7e25d3043897df7f643958961
     GuidInternal: 
-    m_lastTime: -8585486711392150277
+    m_lastTime: -8585485867729268729
     List:
     - name: Reset
       guid: c13c94837de2304894ccbb0d370fde3f
@@ -208,8 +256,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5a01f9542251a443b04b5b5482d82199
     GuidInternal: 
-    m_lastTime: -8585490433968453808
-    List: []
+    m_lastTime: -8585485775280379103
+    List:
+    - name: Music_Regions
+      guid: 0519a5a0e34cc048bfd6e9455d1b2a56
+      id: 2106907484
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5a01f9542251a443b04b5b5482d82199
+      - ElementName: Music_Regions
+        ObjectType: 9
+        guid: 0519a5a0e34cc048bfd6e9455d1b2a56
+      Path: States\Default Work Unit\Music_Regions
+      values:
+      - name: Ending
+        guid: bc2f0ec50f19934b8a94b47d8a73447d
+        id: 3966194980
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: Music_Regions
+          ObjectType: 9
+          guid: 0519a5a0e34cc048bfd6e9455d1b2a56
+        - ElementName: Ending
+          ObjectType: 8
+          guid: bc2f0ec50f19934b8a94b47d8a73447d
+      - name: MainGame
+        guid: 196c84761eaede4e8cf802ccdbadf779
+        id: 1731745708
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: Music_Regions
+          ObjectType: 9
+          guid: 0519a5a0e34cc048bfd6e9455d1b2a56
+        - ElementName: MainGame
+          ObjectType: 8
+          guid: 196c84761eaede4e8cf802ccdbadf779
+      - name: None
+        guid: 335d369acddc7242a4415f8092f9226e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: Music_Regions
+          ObjectType: 9
+          guid: 0519a5a0e34cc048bfd6e9455d1b2a56
+        - ElementName: None
+          ObjectType: 8
+          guid: 335d369acddc7242a4415f8092f9226e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -222,8 +336,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 2eb5a89cd67e134a9a28d1118ae7d406
     GuidInternal: 
-    m_lastTime: -8585490433968533782
-    List: []
+    m_lastTime: -8585485847515279009
+    List:
+    - name: Surface_Type
+      guid: 759953bd33091f469913d3faaf50ff23
+      id: 4064446173
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2eb5a89cd67e134a9a28d1118ae7d406
+      - ElementName: Surface_Type
+        ObjectType: 11
+        guid: 759953bd33091f469913d3faaf50ff23
+      Path: Switches\Default Work Unit\Surface_Type
+      values:
+      - name: Block
+        guid: 8b94ae6df0a44d42a5a11d9c5b6c40bc
+        id: 4001580976
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2eb5a89cd67e134a9a28d1118ae7d406
+        - ElementName: Surface_Type
+          ObjectType: 11
+          guid: 759953bd33091f469913d3faaf50ff23
+        - ElementName: Block
+          ObjectType: 10
+          guid: 8b94ae6df0a44d42a5a11d9c5b6c40bc
+      - name: Stair
+        guid: bde8b1ebe6049a4c8d98da5ff74cb953
+        id: 1164367372
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2eb5a89cd67e134a9a28d1118ae7d406
+        - ElementName: Surface_Type
+          ObjectType: 11
+          guid: 759953bd33091f469913d3faaf50ff23
+        - ElementName: Stair
+          ObjectType: 10
+          guid: bde8b1ebe6049a4c8d98da5ff74cb953
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -238,9 +402,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585490433968083917
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c00000010000000
+  ExpandedFileSystemItemIds: 010000000300000004000000090000000b0000000f000000110000001200000013000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c00000010000000af000000b1000000b4000000b6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
