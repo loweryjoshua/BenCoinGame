@@ -65,6 +65,10 @@ namespace StarterAssets
 
 		private GameManager gm;
 
+		private float timeFall;
+
+
+
 	
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		private PlayerInput _playerInput;
@@ -110,6 +114,8 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+
+			timeFall = 0f;
 		}
 
 		private void Update()
@@ -155,6 +161,9 @@ namespace StarterAssets
 
 		private void Move()
 		{
+			//Hey Ben! Is this how to do it?? haha
+			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
+
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
@@ -162,7 +171,12 @@ namespace StarterAssets
 
 			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is no input, set the target speed to 0
-			if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+			if (_input.move == Vector2.zero) 
+			{
+				targetSpeed = 0.0f;
+				wwiseEvent.StopStepSound();
+			}
+			
 
 			// a reference to the players current horizontal velocity
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
@@ -190,25 +204,31 @@ namespace StarterAssets
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
-
-			//Hey Ben! Is this how to do it?? haha
-			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
-
 			if (_input.move != Vector2.zero)
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				wwiseEvent.PlayStepSound();
+
 			}
 
-			if(this.transform.position.y > -2.0f)
+			//Hey Ben! Is this how to do it?? haha
+			if (this.transform.position.y > -2.0f)
             {
+				timeFall = 0f;
 				_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 			} else
             {
+				_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 				//Can we let the player fall for exactly 1.3 more seconds after the playresetsound() is called? That way the SFX lines up with the reset
 				wwiseEvent.PlayResetSound();
-				PlayerDeath();
-            }
+				timeFall += Time.deltaTime;
+				if(timeFall > 1.3f)
+                {
+					PlayerDeath();
+					timeFall = 0f;
+				}
+			}
 			// move the player
 		}
 

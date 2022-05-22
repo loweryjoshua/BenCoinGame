@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98870701	Coin_Pickup			\Objects\Coin_Pickup	
+	2266592114	Step_Start			\Player\Moving\Step_Start	
+	4017455162	Reset			\Player\Reset	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	1164367372	Stair	Surface_Type			
+	4001580976	Block	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1092400375	StartStop			\Default Work Unit\StartStop	
+
+State	ID	Name	State Group			Notes
+	748895195	None	StartStop			
+	788884573	Stop	StartStop			
+	1281810935	Start	StartStop			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	254864476	Start	StartStop	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface		
+	258140890	Stop	StartStop	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface		
+
+Effect plug-ins	ID	Name	Type				Notes
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24443109	Coin Game - Block_Step6	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step6		9514
+	215269321	Coin Game - Block_Step1	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step1		10162
+	231062648	Coin Game - Stair_Step4	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step4		8367
+	406813184	Reset	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Reset_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Reset		16382
+	411419591	Coin Game - Stair_Step6	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step6		8204
+	441333261	Coin Game - Block_Step3	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step3		9785
+	604893996	Coin Game - Stair_Step5	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step5		8369
+	657988860	Coin Game - Block_Step4	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step4		9497
+	806460293	Coin Game - Block_Step2	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step2		9353
+	917510743	Coin Game - Stair_Step2	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step2		8202
+	968535423	Coin Game - Stair_Step3	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step3		8159
+	992970694	Coin_Pickup	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin_Pickup_F8A4004E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Coin_Pickup		57928
+	1001130212	Coin Game - Block_Step5	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Block_Step5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Blocks\Coin Game - Block_Step5		9741
+	1057813653	Coin Game - Stair_Step1	D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Mac\SFX\Coin Game - Stair_Step1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Footsteps_Surface\Footsteps_Stairs\Coin Game - Stair_Step1		8620
+

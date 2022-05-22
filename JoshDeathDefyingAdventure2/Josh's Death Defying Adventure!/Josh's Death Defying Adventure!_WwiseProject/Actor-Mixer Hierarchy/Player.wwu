@@ -14,6 +14,20 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Reset" ID="{153540E8-DD54-4958-A915-25238E4FD174}" ShortID="17298497">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
@@ -38,11 +52,26 @@
 						</Sound>
 						<SwitchContainer Name="Footsteps_Surface" ID="{D923343A-FAD3-48A7-BE63-19E90827E493}" ShortID="632513970">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-108</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
 								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 									<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -50,15 +79,24 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface_Type" ID="{BD539975-0933-461F-9913-D3FAAF50FF23}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Footsteps_Blocks" ID="{1E522429-0965-4858-AA11-7A645E2A7850}" ShortID="566110272">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.6">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.45">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{CD45045C-4AAD-429D-A44E-4628F1512817}"/>
@@ -307,7 +345,7 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.35"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -464,6 +502,31 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="StartStop" ID="{D6D4ECCF-3941-44D1-82A1-AE8621EF7D28}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
+										<CustomState Name="" ID="{F8EE3FAE-B257-49FC-977D-CCD8E0CEBBEE}" ShortID="258140890">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+										<CustomState Name="" ID="{9DA0B986-E089-4658-950E-B44DCD8D53CF}" ShortID="254864476">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -474,6 +537,20 @@
 										<ItemRef Name="Footsteps_Stairs" ID="{DBABA084-EC6A-41CE-87D4-77C2071188BA}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Blocks" ID="{1E522429-0965-4858-AA11-7A645E2A7850}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stair" ID="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Stairs" ID="{DBABA084-EC6A-41CE-87D4-77C2071188BA}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
