@@ -29,6 +29,14 @@
 							<ObjectRef Name="Coin_Pickup" ID="{9682F7FD-E67C-4DF6-82EA-234E0709D221}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Menu_MusicEnd" ID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu_MusicStart" ID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">

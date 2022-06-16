@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1155523944">
+		<SoundBank Id="393239870" Language="SFX" Hash="413925108">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -122,6 +122,66 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3604647259" Language="SFX" Hash="3039491361">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4058101365" Name="GameStart" ObjectPath="\Events\UI\GameStart" DurationType="OneShot" DurationMin="4.990566" DurationMax="4.990566">
+					<IncludedMemoryFiles>
+						<File Id="804928423" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_1214EA6D.wem</Path>
+						</File>
+						<File Id="819622775" Language="SFX">
+							<ShortName>GameStart_SFX.wav</ShortName>
+							<Path>SFX\GameStart_SFX_81EFBDEA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1428083659" Name="Menu_MusicEnd" ObjectPath="\Events\UI\Menu_MusicEnd" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="522022064" Name="Menu_MusicStart" ObjectPath="\Events\UI\Menu_MusicStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="88564371" Language="SFX">
+							<ShortName>Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="104286455" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="176159737" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="375971432" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="505585677" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="601134768" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="649949475" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="705828321" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="770052488" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX" Hash="410115706">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>

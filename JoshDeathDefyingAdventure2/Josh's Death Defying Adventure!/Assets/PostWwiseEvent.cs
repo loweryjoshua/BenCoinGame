@@ -5,11 +5,9 @@ using UnityEngine;
 public class PostWwiseEvent : MonoBehaviour
 {
     public AK.Wwise.Event MyEvent1;
-    // public AK.Wwise.Event MyEvent2;
-    //public AK.Wwise.Event MyEvent3;
     public AK.Wwise.Event MyTestEvent1;
-    public AK.Wwise.State MyState1;
-    public AK.Wwise.State MyState2;
+    public AK.Wwise.State MyStateOn;
+    public AK.Wwise.State MyStateOff;
     public void PlayResetSound()
     {
         MyEvent1.Post(gameObject);
@@ -22,12 +20,12 @@ public class PostWwiseEvent : MonoBehaviour
 
      public void UnMuteStepSound()
     {
-        MyState1.SetValue();
+        MyStateOn.SetValue();
     }
 
     public void MuteStepSound()
     {
-        MyState2.SetValue();
+        MyStateOff.SetValue();
     }
 
 

@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 47542739}
   - component: {fileID: 47542738}
   - component: {fileID: 47542741}
+  - component: {fileID: 47542743}
   m_Layer: 5
   m_Name: PlayGameButton
   m_TagString: Untagged
@@ -269,6 +270,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f79e522ff9c6cf4a938248efd1bd895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyEvent1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4b8570d2eef09f744b0700815fcb1231, type: 2}
+  MyEvent2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 864ce4528dadd60499baf2d61a824368, type: 2}
+--- !u!114 &47542743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47542736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3617f5df0baf9194595112d43c3e3e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &156236601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1299,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f79e522ff9c6cf4a938248efd1bd895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyEvent1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  MyEvent2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &2087415233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1318,8 @@ GameObject:
   - component: {fileID: 2087415236}
   - component: {fileID: 2087415235}
   - component: {fileID: 2087415234}
+  - component: {fileID: 2087415238}
+  - component: {fileID: 2087415237}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1303,7 +1344,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c8585efa6f3beff4b8d05e40c5c71e8a, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: ee279427d28e34546bd73d7e2c102eaf, type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -1349,3 +1390,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2087415237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087415233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641ae06ad8053a7498e71df9c41156f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d0b0f81e827e79a4397656da3b65822c, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &2087415238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087415233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3617f5df0baf9194595112d43c3e3e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1

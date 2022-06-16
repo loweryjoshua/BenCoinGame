@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="525826470">
+		<SoundBank Id="393239870" Language="SFX" Hash="413925108">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -24,15 +24,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
-					<IncludedMemoryFiles>
-						<File Id="406813184" Language="SFX">
-							<ShortName>Reset.wav</ShortName>
-							<Path>SFX\Reset_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2266592114" Name="Step_Start" ObjectPath="\Events\Player\Moving\Step_Start" DurationType="Infinite">
+				<Event Id="874182518" Name="New_Step" ObjectPath="\Events\Player\Moving\New_Step" DurationType="OneShot" DurationMin="0.696054" DurationMax="1.">
 					<IncludedMemoryFiles>
 						<File Id="24443109" Language="SFX">
 							<ShortName>Coin Game - Block_Step6.wav</ShortName>
@@ -107,6 +99,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
+					<IncludedMemoryFiles>
+						<File Id="406813184" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2266592114" Name="Step_Start" ObjectPath="\Events\Player\Moving\Step_Start" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type" GUID="{BD539975-0933-461F-9913-D3FAAF50FF23}">
@@ -117,12 +118,71 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1866657048">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2539099052">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="162231">
+		<SoundBank Id="3604647259" Language="SFX" Hash="1415638170">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4058101365" Name="GameStart" ObjectPath="\Events\UI\GameStart" DurationType="OneShot" DurationMin="4.990566" DurationMax="4.990566">
+					<IncludedMemoryFiles>
+						<File Id="804928423" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_09B36F3B.wem</Path>
+						</File>
+						<File Id="819622775" Language="SFX">
+							<ShortName>GameStart_SFX.wav</ShortName>
+							<Path>SFX\GameStart_SFX_C6498528.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Music\Menu_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="88564371" Language="SFX">
+							<ShortName>Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="104286455" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="176159737" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="375971432" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="505585677" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="601134768" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="649949475" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="705828321" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="770052488" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="410115706">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

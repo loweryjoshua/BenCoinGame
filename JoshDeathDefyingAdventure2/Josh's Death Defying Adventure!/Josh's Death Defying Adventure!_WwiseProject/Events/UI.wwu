@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="UI" ID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" PersistMode="Standalone"/>
+		<WorkUnit Name="UI" ID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GameStart" ID="{2D31FE6E-35AD-42BD-ACA9-7AEB6954BAF5}">
+					<ChildrenList>
+						<Action Name="" ID="{A94E6B6B-0250-473A-B95E-F03A99B91130}" ShortID="1015451299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameStart" ID="{592BB581-0429-4F0C-9780-798C8D38EB8E}" WorkUnitID="{16FABDEE-7A34-4726-A751-BF3C835983BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_MusicStart" ID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}">
+					<ChildrenList>
+						<Action Name="" ID="{316E325C-0D06-4B61-AC13-0589B33CE0BF}" ShortID="566555174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Music" ID="{B5215430-33BD-474F-8155-DC2401FC945C}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_MusicEnd" ID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}">
+					<ChildrenList>
+						<Action Name="" ID="{D17F67FA-6DBF-4A0F-BC67-F7D85C8016DF}" ShortID="806862345">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Music" ID="{B5215430-33BD-474F-8155-DC2401FC945C}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

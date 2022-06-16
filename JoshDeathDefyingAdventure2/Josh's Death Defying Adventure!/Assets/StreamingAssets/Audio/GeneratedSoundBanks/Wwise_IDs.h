@@ -14,7 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID COIN_PICKUP = 98870701U;
+        static const AkUniqueID GAMESTART = 4058101365U;
         static const AkUniqueID MAINGAME_MUSIC = 4271964152U;
+        static const AkUniqueID MENU_MUSICEND = 1428083659U;
+        static const AkUniqueID MENU_MUSICSTART = 522022064U;
         static const AkUniqueID NEW_STEP = 874182518U;
         static const AkUniqueID RESET = 4017455162U;
         static const AkUniqueID STEP_START = 2266592114U;
@@ -66,6 +69,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MAINMENU = 3604647259U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS

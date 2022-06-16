@@ -66,8 +66,8 @@ namespace StarterAssets
 		private GameManager gm;
 
 		private float timeFall;
-		private float footstepSpeed = 0.3f;
-		private float timer = 0.0f;
+		private float footstepSpeed;
+		private float footstepTimer;
 
 
 
@@ -118,6 +118,8 @@ namespace StarterAssets
 			_fallTimeoutDelta = FallTimeout;
 
 			timeFall = 0f;
+			footstepTimer = 0.0f;
+			footstepSpeed = 0.3f;
 		}
 
 		private void Update()
@@ -176,7 +178,6 @@ namespace StarterAssets
 			if (_input.move == Vector2.zero) 
 			{
 				targetSpeed = 0.0f;
-		
 			}
 			
 
@@ -211,13 +212,13 @@ namespace StarterAssets
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
 
-				if (timer > footstepSpeed)
+				if (footstepTimer > footstepSpeed)
 				{
 					footsteps.SelectAndPlayFootstep();
-					timer = 0.0f;
+					footstepTimer = 0.0f;
 				}
 
-				timer += Time.deltaTime;
+				footstepTimer += Time.deltaTime;
 
 			}
 

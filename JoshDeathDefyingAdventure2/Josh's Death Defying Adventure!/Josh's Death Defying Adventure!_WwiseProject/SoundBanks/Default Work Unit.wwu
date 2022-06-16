@@ -20,6 +20,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MainMenu" ID="{CA338685-BA41-4155-A26F-20E4CF1CA706}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GameStart" ID="{2D31FE6E-35AD-42BD-ACA9-7AEB6954BAF5}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_MusicStart" ID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_MusicEnd" ID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
