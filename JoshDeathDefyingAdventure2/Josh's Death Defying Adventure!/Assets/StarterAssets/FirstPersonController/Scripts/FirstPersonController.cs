@@ -66,10 +66,12 @@ namespace StarterAssets
 		private GameManager gm;
 
 		private float timeFall;
+		private float footstepSpeed = 0.3f;
+		private float timer = 0.0f;
 
 
 
-	
+
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		private PlayerInput _playerInput;
 #endif
@@ -161,7 +163,7 @@ namespace StarterAssets
 
 		private void Move()
 		{
-			//Hey Ben! Is this how to do it?? haha
+			PlayerFootsteps footsteps = gameObject.GetComponent<PlayerFootsteps>();
 			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
 
 			// set target speed based on move speed, sprint speed and if sprint is pressed
@@ -174,7 +176,7 @@ namespace StarterAssets
 			if (_input.move == Vector2.zero) 
 			{
 				targetSpeed = 0.0f;
-				wwiseEvent.StopStepSound();
+		
 			}
 			
 
@@ -208,11 +210,17 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-				wwiseEvent.PlayStepSound();
+
+				if (timer > footstepSpeed)
+				{
+					footsteps.SelectAndPlayFootstep();
+					timer = 0.0f;
+				}
+
+				timer += Time.deltaTime;
 
 			}
 
-			//Hey Ben! Is this how to do it?? haha
 			if (this.transform.position.y > -2.0f)
             {
 				timeFall = 0f;
@@ -220,7 +228,6 @@ namespace StarterAssets
 			} else
             {
 				_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
-				//Can we let the player fall for exactly 1.3 more seconds after the playresetsound() is called? That way the SFX lines up with the reset
 				wwiseEvent.PlayResetSound();
 				timeFall += Time.deltaTime;
 				if(timeFall > 1.3f)

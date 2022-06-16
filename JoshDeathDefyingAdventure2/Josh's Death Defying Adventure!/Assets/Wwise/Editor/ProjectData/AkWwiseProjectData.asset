@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 569d666ab609794a8cc09657b44a3b6b
     GuidInternal: 
-    m_lastTime: -8585484998826365019
+    m_lastTime: -8585462798358972355
     List:
     - name: Music
       guid: 810138230a8b884fab3b383b117f608a
@@ -198,7 +198,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: b6d8f9a7e25d3043897df7f643958961
     GuidInternal: 
-    m_lastTime: -8585484990251602728
+    m_lastTime: -8585462798525568301
     List:
     - name: Jump
       guid: 6637007be4d1aa47af45bd0901bdc30d
@@ -237,6 +237,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: New_Step
+      guid: b6c75da18c5e204b955a2c9b85f51f6b
+      id: 874182518
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: b6d8f9a7e25d3043897df7f643958961
+      - ElementName: Moving
+        ObjectType: 4
+        guid: a55452ed30ba0042a4341516704c6a04
+      - ElementName: New_Step
+        ObjectType: 3
+        guid: b6c75da18c5e204b955a2c9b85f51f6b
+      Path: Events\Player\Moving\New_Step
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 0.696054
     - name: Reset
       guid: c13c94837de2304894ccbb0d370fde3f
       id: 4017455162
@@ -313,8 +333,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5a01f9542251a443b04b5b5482d82199
     GuidInternal: 
-    m_lastTime: -8585484985318303717
+    m_lastTime: -8585462603849388887
     List:
+    - name: GroundedStartStop
+      guid: cfecd4d64139d14482a1ae8621ef7d28
+      id: 1266365513
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5a01f9542251a443b04b5b5482d82199
+      - ElementName: GroundedStartStop
+        ObjectType: 9
+        guid: cfecd4d64139d14482a1ae8621ef7d28
+      Path: States\Default Work Unit\GroundedStartStop
+      values:
+      - name: None
+        guid: 5d23631c40f46942be63f434ea6611da
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: GroundedStartStop
+          ObjectType: 9
+          guid: cfecd4d64139d14482a1ae8621ef7d28
+        - ElementName: None
+          ObjectType: 8
+          guid: 5d23631c40f46942be63f434ea6611da
+      - name: Start
+        guid: 82a2ffb6f4d56e4d938e57b8c53e8538
+        id: 1281810935
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: GroundedStartStop
+          ObjectType: 9
+          guid: cfecd4d64139d14482a1ae8621ef7d28
+        - ElementName: Start
+          ObjectType: 8
+          guid: 82a2ffb6f4d56e4d938e57b8c53e8538
+      - name: Stop
+        guid: 52c3e1431ea04741af5d4b585d8f63c0
+        id: 788884573
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5a01f9542251a443b04b5b5482d82199
+        - ElementName: GroundedStartStop
+          ObjectType: 9
+          guid: cfecd4d64139d14482a1ae8621ef7d28
+        - ElementName: Stop
+          ObjectType: 8
+          guid: 52c3e1431ea04741af5d4b585d8f63c0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Music_Regions
       guid: 0519a5a0e34cc048bfd6e9455d1b2a56
       id: 2106907484
@@ -378,72 +464,6 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 335d369acddc7242a4415f8092f9226e
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: StartStop
-      guid: cfecd4d64139d14482a1ae8621ef7d28
-      id: 1092400375
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 5a01f9542251a443b04b5b5482d82199
-      - ElementName: StartStop
-        ObjectType: 9
-        guid: cfecd4d64139d14482a1ae8621ef7d28
-      Path: States\Default Work Unit\StartStop
-      values:
-      - name: None
-        guid: 5d23631c40f46942be63f434ea6611da
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5a01f9542251a443b04b5b5482d82199
-        - ElementName: StartStop
-          ObjectType: 9
-          guid: cfecd4d64139d14482a1ae8621ef7d28
-        - ElementName: None
-          ObjectType: 8
-          guid: 5d23631c40f46942be63f434ea6611da
-      - name: Start
-        guid: 82a2ffb6f4d56e4d938e57b8c53e8538
-        id: 1281810935
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5a01f9542251a443b04b5b5482d82199
-        - ElementName: StartStop
-          ObjectType: 9
-          guid: cfecd4d64139d14482a1ae8621ef7d28
-        - ElementName: Start
-          ObjectType: 8
-          guid: 82a2ffb6f4d56e4d938e57b8c53e8538
-      - name: Stop
-        guid: 52c3e1431ea04741af5d4b585d8f63c0
-        id: 788884573
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5a01f9542251a443b04b5b5482d82199
-        - ElementName: StartStop
-          ObjectType: 9
-          guid: cfecd4d64139d14482a1ae8621ef7d28
-        - ElementName: Stop
-          ObjectType: 8
-          guid: 52c3e1431ea04741af5d4b585d8f63c0
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -525,7 +545,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585490433968083917
     List: []
-  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000d0000000e0000000f000000100000001100000012000000130000001600000017000000180000001d000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001600000017000000180000001d000000
   ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c00000010000000af000000b1000000b4000000b6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="525826470">
+		<SoundBank Id="393239870" Language="SFX" Hash="1155523944">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -24,15 +24,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
-					<IncludedMemoryFiles>
-						<File Id="406813184" Language="SFX">
-							<ShortName>Reset.wav</ShortName>
-							<Path>SFX\Reset_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2266592114" Name="Step_Start" ObjectPath="\Events\Player\Moving\Step_Start" DurationType="Infinite">
+				<Event Id="874182518" Name="New_Step" ObjectPath="\Events\Player\Moving\New_Step" DurationType="OneShot" DurationMin="0.696054" DurationMax="1.">
 					<IncludedMemoryFiles>
 						<File Id="24443109" Language="SFX">
 							<ShortName>Coin Game - Block_Step6.wav</ShortName>
@@ -107,6 +99,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
+					<IncludedMemoryFiles>
+						<File Id="406813184" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2266592114" Name="Step_Start" ObjectPath="\Events\Player\Moving\Step_Start" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type" GUID="{BD539975-0933-461F-9913-D3FAAF50FF23}">
@@ -117,12 +118,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1866657048">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2539099052">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="162231">
+		<SoundBank Id="3991942870" Language="SFX" Hash="410115706">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

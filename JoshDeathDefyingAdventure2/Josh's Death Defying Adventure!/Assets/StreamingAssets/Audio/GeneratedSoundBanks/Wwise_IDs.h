@@ -15,12 +15,25 @@ namespace AK
     {
         static const AkUniqueID COIN_PICKUP = 98870701U;
         static const AkUniqueID MAINGAME_MUSIC = 4271964152U;
+        static const AkUniqueID NEW_STEP = 874182518U;
         static const AkUniqueID RESET = 4017455162U;
         static const AkUniqueID STEP_START = 2266592114U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace GROUNDEDSTARTSTOP
+        {
+            static const AkUniqueID GROUP = 1266365513U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID START = 1281810935U;
+                static const AkUniqueID STOP = 788884573U;
+            } // namespace STATE
+        } // namespace GROUNDEDSTARTSTOP
+
         namespace MUSIC_REGIONS
         {
             static const AkUniqueID GROUP = 2106907484U;
@@ -32,18 +45,6 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC_REGIONS
-
-        namespace STARTSTOP
-        {
-            static const AkUniqueID GROUP = 1092400375U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID START = 1281810935U;
-                static const AkUniqueID STOP = 788884573U;
-            } // namespace STATE
-        } // namespace STARTSTOP
 
     } // namespace STATES
 

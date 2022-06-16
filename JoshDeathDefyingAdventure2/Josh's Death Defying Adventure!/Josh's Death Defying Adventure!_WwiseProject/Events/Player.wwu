@@ -28,6 +28,17 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Jump" ID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}"/>
+						<Event Name="New_Step" ID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}">
+							<ChildrenList>
+								<Action Name="" ID="{0C902551-CCB3-4175-AF8A-FC31CC267CF8}" ShortID="1015636207">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_Surface - NEW" ID="{B81675E7-4DD5-43B5-BAA9-2D6D35C22F8D}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

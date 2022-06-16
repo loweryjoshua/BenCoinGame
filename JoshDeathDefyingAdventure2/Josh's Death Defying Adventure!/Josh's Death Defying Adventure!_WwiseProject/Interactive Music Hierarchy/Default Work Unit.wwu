@@ -982,10 +982,8 @@
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
-									<ReferenceList/>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{2A96996E-0A26-4EBC-8E0A-8623CBE7AE18}">
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -1043,7 +1041,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1274,14 +1272,12 @@
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList/>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{AB7747A9-C37C-4AFE-B778-260DAE46B7A4}">
 									<PropertyList>
 										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 									</PropertyList>
-									<ReferenceList/>
 									<TransitionInfo/>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{CA610551-32B3-446B-A150-BE2C0EAB925E}">

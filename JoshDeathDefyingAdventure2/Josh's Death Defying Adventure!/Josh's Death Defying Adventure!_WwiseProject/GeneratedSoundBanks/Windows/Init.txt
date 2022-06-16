@@ -1,11 +1,11 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	1092400375	StartStop			\Default Work Unit\StartStop	
+	1266365513	GroundedStartStop			\Default Work Unit\GroundedStartStop	
 	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
 
 State	ID	Name	State Group			Notes
-	748895195	None	StartStop			
-	788884573	Stop	StartStop			
-	1281810935	Start	StartStop			
+	748895195	None	GroundedStartStop			
+	788884573	Stop	GroundedStartStop			
+	1281810935	Start	GroundedStartStop			
 	748895195	None	Music_Regions			
 	1731745708	MainGame	Music_Regions			
 	3966194980	Ending	Music_Regions			

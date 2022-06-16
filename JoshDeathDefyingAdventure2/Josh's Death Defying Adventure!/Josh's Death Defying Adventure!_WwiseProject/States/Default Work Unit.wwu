@@ -10,7 +10,7 @@
 						<State Name="Ending" ID="{C50E2FBC-190F-4B93-8A94-B47D8A73447D}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="StartStop" ID="{D6D4ECCF-3941-44D1-82A1-AE8621EF7D28}">
+				<StateGroup Name="GroundedStartStop" ID="{D6D4ECCF-3941-44D1-82A1-AE8621EF7D28}">
 					<PropertyList>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
 					</PropertyList>
