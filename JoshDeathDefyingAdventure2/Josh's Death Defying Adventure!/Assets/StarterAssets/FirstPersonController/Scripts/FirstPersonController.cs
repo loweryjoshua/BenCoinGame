@@ -253,8 +253,11 @@ namespace StarterAssets
 
 		private void JumpAndGravity()
 		{
+			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
+
 			if (Grounded)
 			{
+				wwiseEvent.UnMuteStepSound();
 				// reset the fall timeout timer
 				_fallTimeoutDelta = FallTimeout;
 
@@ -279,6 +282,7 @@ namespace StarterAssets
 			}
 			else
 			{
+				wwiseEvent.MuteStepSound();
 				// reset the jump timeout timer
 				_jumpTimeoutDelta = JumpTimeout;
 
