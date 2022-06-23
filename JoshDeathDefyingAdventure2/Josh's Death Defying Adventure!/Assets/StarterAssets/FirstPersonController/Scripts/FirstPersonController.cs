@@ -69,6 +69,7 @@ namespace StarterAssets
 		private float footstepSpeed;
 		private float footstepTimer;
 
+		private bool startedFalling;
 
 
 
@@ -272,12 +273,23 @@ namespace StarterAssets
 				{
 					// the square root of H * -2 * G = how much velocity needed to reach desired height
 					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+
+					wwiseEvent.PlayJumpSound();			
 				}
+				
 
 				// jump timeout
 				if (_jumpTimeoutDelta >= 0.0f)
 				{
 					_jumpTimeoutDelta -= Time.deltaTime;
+				}
+
+				//if we are grounded after falling or jumping then falling, play landing sound
+				if (startedFalling == true)
+				{
+					wwiseEvent.PlayLandingSound();
+
+					startedFalling = false;
 				}
 			}
 			else
@@ -294,6 +306,11 @@ namespace StarterAssets
 
 				// if we are not grounded, do not jump
 				_input.jump = false;
+
+				//indicates that we have either fallen or jumped
+				startedFalling = true;
+
+				//set a boolean (maybe called, falling) to true, 
 			}
 
 			// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)

@@ -13,14 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLOCK_DROPPING = 1948853988U;
+        static const AkUniqueID COIN_DRONE = 2695218137U;
         static const AkUniqueID COIN_PICKUP = 98870701U;
         static const AkUniqueID GAMESTART = 4058101365U;
+        static const AkUniqueID JUMP_GRUNT = 2871505082U;
+        static const AkUniqueID JUMP_LANDING = 2883244301U;
         static const AkUniqueID MAINGAME_MUSIC = 4271964152U;
         static const AkUniqueID MENU_MUSICEND = 1428083659U;
         static const AkUniqueID MENU_MUSICSTART = 522022064U;
         static const AkUniqueID NEW_STEP = 874182518U;
         static const AkUniqueID RESET = 4017455162U;
-        static const AkUniqueID STEP_START = 2266592114U;
     } // namespace EVENTS
 
     namespace STATES
@@ -76,6 +79,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID GENERAL_REVERB = 1087715749U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

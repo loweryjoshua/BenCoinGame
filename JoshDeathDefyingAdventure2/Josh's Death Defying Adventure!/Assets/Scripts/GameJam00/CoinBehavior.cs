@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CoinBehavior : MonoBehaviour
 {
     private GameObject GameManager;
+    private AkTransform akTransform;
+    private Vector3 orientationTop;
+    private Vector3 orientationFront;
+
     // Start is called before the first frame update
     void Start()
     {
         GameManager = GameObject.Find("GameManager");
-        GameManager.GetComponent<GameManager>().NumberOfCoinsLeft += 1;
+        GameManager.GetComponent<GameManager>().NumberOfCoinsLeft += 1;          
     }
 
     // Update is called once per frame

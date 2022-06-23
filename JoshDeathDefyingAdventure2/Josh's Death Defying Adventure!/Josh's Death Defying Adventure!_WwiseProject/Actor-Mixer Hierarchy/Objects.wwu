@@ -50,6 +50,150 @@
 						<ActiveSource Name="Coin_Pickup" ID="{B6FE7924-112A-44AD-A914-02EB4A8085AB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Coin_Drone" ID="{51813075-C786-42F3-817F-4B9F5720CA13}" ShortID="89148810">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Coin_Attenuation" ID="{C834615D-9FCD-4C29-9361-B47A91E93F2B}" WorkUnitID="{72A1599D-FC7B-4790-A98F-58D095B3FE8E}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Coin Game_Drone - Mojito" ID="{9D158AC8-BCAD-4763-8DF7-09C09ECDDAD7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.10875479021908"/>
+								<Property Name="LoopEnd" Type="Real64" Value="49.9425162427646"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Coin Game_Drone - Mojito.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="981207449"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{AF1A12B8-F922-46B1-8FC9-0676C5AE9A06}">
+							<ChildrenList>
+								<Path2D Name="Coin_Drone_Path" ID="{73FC2922-E9BB-4542-BA76-154D33D86CD6}">
+									<PointList>
+										<Point>
+											<XPos>14.72082</XPos>
+											<YPos>68.0791</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Coin Game_Drone - Mojito" ID="{9D158AC8-BCAD-4763-8DF7-09C09ECDDAD7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Block_Dropping" ID="{AE551CAC-969F-48CC-8A4B-EAF822AB6337}" ShortID="259192497">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Block_att" ID="{C28C94F9-E714-4585-AE43-16BEB9006660}" WorkUnitID="{72A1599D-FC7B-4790-A98F-58D095B3FE8E}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Coin Game - BlockDropping1" ID="{9B4CC47B-EF57-42F8-B75B-947F264866DD}" ShortID="100567239">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Coin Game - BlockDropping1" ID="{6E83D528-0FC6-4F84-8D61-4102B8E64AC6}">
+									<Language>SFX</Language>
+									<AudioFile>Coin Game - BlockDropping1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="985410419"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Coin Game - BlockDropping1" ID="{6E83D528-0FC6-4F84-8D61-4102B8E64AC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Coin Game - BlockDropping2" ID="{36A7145B-C81F-43D2-B52B-213EB2EB052F}" ShortID="590075075">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Coin Game - BlockDropping2" ID="{294A3B4E-346B-4383-8B72-8C06E5163863}">
+									<Language>SFX</Language>
+									<AudioFile>Coin Game - BlockDropping2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="51934902"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Coin Game - BlockDropping2" ID="{294A3B4E-346B-4383-8B72-8C06E5163863}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Coin Game - BlockDropping3" ID="{AFB0A4F8-DAD6-4047-ACEB-D01538923567}" ShortID="45787998">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Coin Game - BlockDropping3" ID="{10A97752-1FC8-469E-B409-2C3879E9B4A6}">
+									<Language>SFX</Language>
+									<AudioFile>Coin Game - BlockDropping3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="536036247"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Coin Game - BlockDropping3" ID="{10A97752-1FC8-469E-B409-2C3879E9B4A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

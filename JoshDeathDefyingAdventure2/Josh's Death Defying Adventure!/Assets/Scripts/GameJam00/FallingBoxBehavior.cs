@@ -33,6 +33,7 @@ public class FallingBoxBehavior : MonoBehaviour
             {
                 beginFall = false;
                 isFalling = true;
+                AkSoundEngine.PostEvent("Block_Dropping", gameObject);
             }
         }
         if(isFalling)

@@ -34,6 +34,11 @@
 								<MusicSegment Name="Music_MiddleA" ID="{B7EFCA1C-1F97-47E8-BB31-3ADFCC337006}" ShortID="977133865">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="52500"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -425,6 +430,11 @@
 										<MusicTrack Name="MiddleA-SynthLead1_120bpm3-4-L31-PM1" ID="{B868C65C-D01B-459C-B4CF-6CD7E2E6A8FA}" ShortID="551397413">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -528,6 +538,11 @@
 								<MusicSegment Name="Music_MiddleB" ID="{9037E9E1-F49C-4922-9F44-2818445E27F0}" ShortID="865818012">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="54000"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -760,6 +775,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="MiddleB-SynthLead_120bpm3-4-L31-PM1" ID="{65391813-A1CD-4A01-971C-E9A2B2D4B213}" ShortID="357384758">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
@@ -1041,7 +1063,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1508,6 +1530,11 @@
 				<MusicPlaylistContainer Name="MainMenu_Music" ID="{B5215430-33BD-474F-8155-DC2401FC945C}" ShortID="350913045">
 					<PropertyList>
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

@@ -16,24 +16,44 @@
 				</Event>
 				<Folder Name="Moving" ID="{ED5254A5-BA30-4200-A434-1516704C6A04}" ShortID="153032673">
 					<ChildrenList>
-						<Event Name="Step_Start" ID="{90FA9748-0A77-46A8-8AD3-4701B80913B7}">
+						<Event Name="Jump_Landing" ID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}">
 							<ChildrenList>
-								<Action Name="" ID="{CD094498-FA5B-461D-971B-E65E8FCC218B}" ShortID="665799488">
+								<Action Name="" ID="{698A509B-8B73-4B66-80C1-8545688ADED0}" ShortID="1056158040">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps_Surface" ID="{D923343A-FAD3-48A7-BE63-19E90827E493}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+											<ObjectRef Name="JumpLanding_Surface" ID="{91AA0548-D6B7-40D8-A4D3-EB16360CF668}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D552130-5DAA-4EDF-B4E2-4CA401447CFA}" ShortID="563663362">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.05"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JumpLanding_Surface" ID="{91AA0548-D6B7-40D8-A4D3-EB16360CF668}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Jump" ID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}"/>
 						<Event Name="New_Step" ID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}">
 							<ChildrenList>
 								<Action Name="" ID="{0C902551-CCB3-4175-AF8A-FC31CC267CF8}" ShortID="1015636207">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps_Surface - NEW" ID="{B81675E7-4DD5-43B5-BAA9-2D6D35C22F8D}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+											<ObjectRef Name="Footsteps_Surface" ID="{B81675E7-4DD5-43B5-BAA9-2D6D35C22F8D}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Jump_Grunt" ID="{88449CF2-72E2-494D-94BD-C8C21D4F3287}">
+							<ChildrenList>
+								<Action Name="" ID="{2A6CBD56-E6DD-41CB-929C-10AEAA19AEB4}" ShortID="130303087">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_Grunt" ID="{097D1D7F-A184-4B55-B72D-7019ADA92444}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

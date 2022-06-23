@@ -6,8 +6,11 @@
 				<SoundBank Name="SFX" ID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Coin_Pickup" ID="{F28754BE-4A58-4332-BD45-13DCF92AF789}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Step_Start" ID="{90FA9748-0A77-46A8-8AD3-4701B80913B7}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Block_Dropping" ID="{5F12F02C-1E39-43F6-9716-2D376C55C42E}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_Drone" ID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump_Landing" ID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reset" ID="{83943CC1-E27D-4830-94CC-BB0D370FDE3F}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump_Grunt" ID="{88449CF2-72E2-494D-94BD-C8C21D4F3287}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="New_Step" ID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

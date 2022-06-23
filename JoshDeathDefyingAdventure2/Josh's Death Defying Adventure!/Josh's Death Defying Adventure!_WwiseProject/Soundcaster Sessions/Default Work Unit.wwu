@@ -44,7 +44,7 @@
 						<CurrentStateRef Name="None" ID="{9A365D33-DCCD-4272-A441-5F8092F9226E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stair" ID="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}"/>
+						<CurrentSwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

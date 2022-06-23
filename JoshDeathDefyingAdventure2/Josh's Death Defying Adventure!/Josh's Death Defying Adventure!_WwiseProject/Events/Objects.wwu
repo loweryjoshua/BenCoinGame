@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Coin_Drone" ID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}">
+					<ChildrenList>
+						<Action Name="" ID="{49A9AC71-D866-48B3-B469-5642E41004C8}" ShortID="237652355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin_Drone" ID="{51813075-C786-42F3-817F-4B9F5720CA13}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Block_Dropping" ID="{5F12F02C-1E39-43F6-9716-2D376C55C42E}">
+					<ChildrenList>
+						<Action Name="" ID="{0BD5079B-0E4B-46E8-9210-0D8A3D3A027A}" ShortID="97590342">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Block_Dropping" ID="{AE551CAC-969F-48CC-8A4B-EAF822AB6337}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

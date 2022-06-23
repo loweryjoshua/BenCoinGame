@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Player" ID="{B572F92B-94D0-40B5-98DA-94FCD58DCA02}" ShortID="907280228">
 					<PropertyList>
+						<Property Name="OverrideEffect" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>4</Value>
@@ -57,13 +58,8 @@
 								<ActiveSource Name="Reset" ID="{E7E7FFBA-0D63-4BA3-865E-AF445DADE0B4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<SwitchContainer Name="Footsteps_Surface" ID="{D923343A-FAD3-48A7-BE63-19E90827E493}" ShortID="632513970">
+						<SwitchContainer Name="Footsteps_Surface" ID="{B81675E7-4DD5-43B5-BAA9-2D6D35C22F8D}" ShortID="998218954">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
@@ -71,10 +67,10 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-108</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -89,509 +85,7 @@
 									<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Surface_Type" ID="{BD539975-0933-461F-9913-D3FAAF50FF23}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="Footsteps_Blocks" ID="{1E522429-0965-4858-AA11-7A645E2A7850}" ShortID="566110272">
-									<PropertyList>
-										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.45">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{CD45045C-4AAD-429D-A44E-4628F1512817}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Coin Game - Block_Step1" ID="{63310196-C097-4069-ABE9-C45C9456C3E4}" ShortID="259059108">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{773B5869-6A9B-45CE-881B-2A2ECD283FEC}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step1" ID="{37AC49FF-F11B-4EDC-84A9-A38AF27CE31B}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="215269321"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step1" ID="{37AC49FF-F11B-4EDC-84A9-A38AF27CE31B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Block_Step2" ID="{7EB3F28A-233D-419C-A562-CAE9F8EB9B8A}" ShortID="506371898">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{55FEB937-D8A5-46EA-97C7-D7B747E6BA06}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step2" ID="{17A9B40C-63BC-4AC4-BA0C-747F2090B8D2}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="806460293"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step2" ID="{17A9B40C-63BC-4AC4-BA0C-747F2090B8D2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Block_Step3" ID="{C8C0782C-6650-41ED-8AFD-32B0375E6D64}" ShortID="477009233">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{F27A347E-6AE2-47A0-AB4D-30706BE5C2D5}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step3" ID="{CFFFE7FB-3AAF-475B-A1EF-31EA429BE74F}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="441333261"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step3" ID="{CFFFE7FB-3AAF-475B-A1EF-31EA429BE74F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Block_Step4" ID="{E7671635-3397-4E62-AF60-A836A5CC44B3}" ShortID="485353533">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{BD816A68-2DFC-45A0-970E-4B8056C9C6FF}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step4" ID="{9BC44D5C-C768-4906-BB9F-CC62845EE5ED}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="657988860"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step4" ID="{9BC44D5C-C768-4906-BB9F-CC62845EE5ED}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Block_Step5" ID="{31A34E4B-C288-4EB6-B840-7A9BE3E6C10E}" ShortID="78469040">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{3AC10095-FCC7-4942-B361-72B7D4BD0CFC}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step5" ID="{9AFD0188-1B17-44E3-8E60-17FEBAAAC5C7}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1001130212"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step5" ID="{9AFD0188-1B17-44E3-8E60-17FEBAAAC5C7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Block_Step6" ID="{CD0CE73B-9F11-4A0F-A723-E4B303C5D23F}" ShortID="206382613">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{4A4AB0EA-848F-4C19-B5B0-59D97A4B404C}">
-																<PropertyList>
-																	<Property Name="Max" Type="Real64" Value="250"/>
-																	<Property Name="Min" Type="Real64" Value="-253"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Block_Step6" ID="{8040D186-8266-40D6-8DB9-14014024FEEE}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Block_Step6.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="24443109"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Block_Step6" ID="{8040D186-8266-40D6-8DB9-14014024FEEE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Footsteps_Stairs" ID="{DBABA084-EC6A-41CE-87D4-77C2071188BA}" ShortID="115441218">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.35"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Coin Game - Stair_Step1" ID="{B92B8F62-489C-404C-B09A-90D0E7F3AFA0}" ShortID="183436924">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step1" ID="{B0326A9F-A521-4B40-B3AF-88B4751F2CD0}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1057813653"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step1" ID="{B0326A9F-A521-4B40-B3AF-88B4751F2CD0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Stair_Step2" ID="{284475D0-A250-4B86-92EE-BA364710B3A1}" ShortID="598659608">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step2" ID="{AD09DDB3-D9EF-4D77-A86C-9937705EA128}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="917510743"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step2" ID="{AD09DDB3-D9EF-4D77-A86C-9937705EA128}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Stair_Step3" ID="{15BA621B-227B-49CB-8190-146B2E5D0276}" ShortID="28944513">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step3" ID="{35957D5B-2B1B-4709-93A1-5089B8E4FB0A}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="968535423"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step3" ID="{35957D5B-2B1B-4709-93A1-5089B8E4FB0A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Stair_Step4" ID="{D1BA534F-FE88-417A-A1D8-C153E0A64735}" ShortID="304007781">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step4" ID="{F64DC871-1CE8-4C54-91F6-092F94AAE764}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="231062648"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step4" ID="{F64DC871-1CE8-4C54-91F6-092F94AAE764}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Stair_Step5" ID="{DB978A3A-03E5-45C1-8EBB-846CE421CE5E}" ShortID="130149154">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step5" ID="{4DB62B33-01F7-42F5-B4EB-F5F0CB064D98}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="604893996"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step5" ID="{4DB62B33-01F7-42F5-B4EB-F5F0CB064D98}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Coin Game - Stair_Step6" ID="{59035D32-8FEF-4DFF-ABFF-D6C987380468}" ShortID="701485039">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Coin Game - Stair_Step6" ID="{BDA96946-2DDE-4E98-8C69-1695CD23E101}">
-													<Language>SFX</Language>
-													<AudioFile>Coin Game - Stair_Step6.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="411419591"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Coin Game - Stair_Step6" ID="{BDA96946-2DDE-4E98-8C69-1695CD23E101}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="GroundedStartStop" ID="{D6D4ECCF-3941-44D1-82A1-AE8621EF7D28}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
-										<CustomState Name="" ID="{F8EE3FAE-B257-49FC-977D-CCD8E0CEBBEE}" ShortID="258140890">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
-										<CustomState Name="" ID="{9DA0B986-E089-4658-950E-B44DCD8D53CF}" ShortID="254864476">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ObjectLists/>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Footsteps_Blocks" ID="{1E522429-0965-4858-AA11-7A645E2A7850}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Footsteps_Stairs" ID="{DBABA084-EC6A-41CE-87D4-77C2071188BA}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
-										<ItemList>
-											<ItemRef Name="Footsteps_Blocks" ID="{1E522429-0965-4858-AA11-7A645E2A7850}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Stair" ID="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}"/>
-										<ItemList>
-											<ItemRef Name="Footsteps_Stairs" ID="{DBABA084-EC6A-41CE-87D4-77C2071188BA}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
-						<SwitchContainer Name="Footsteps_Surface - NEW" ID="{B81675E7-4DD5-43B5-BAA9-2D6D35C22F8D}" ShortID="998218954">
-							<PropertyList>
-								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
-								</Reference>
-								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-									<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+									<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="Surface_Type" ID="{BD539975-0933-461F-9913-D3FAAF50FF23}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
@@ -943,7 +437,7 @@
 										<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
 										<CustomState Name="" ID="{8E3BB3D2-1BB4-4059-BE47-42A0BF9DD719}" ShortID="749964646">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="3"/>
+												<Property Name="Volume" Type="Real64" Value="4"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -975,6 +469,613 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<SwitchContainer Name="JumpLanding_Surface" ID="{91AA0548-D6B7-40D8-A4D3-EB16360CF668}" ShortID="392283435">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+										<Effect Name="Low_Pass_20KHz (Custom)" ID="{67EB65FF-1975-4FE1-A42D-DE322584DDE2}" ShortID="518959672" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="1933"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface_Type" ID="{BD539975-0933-461F-9913-D3FAAF50FF23}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footsteps_Blocks" ID="{0EF2090A-8765-4D59-ACAD-A9EAACB4A8DF}" ShortID="510660130">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.45"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Coin Game - Block_Step1" ID="{E0E704E9-97F3-4C37-B839-BB4548F3EC63}" ShortID="483798332">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step1" ID="{AFAB5779-32DB-4A88-A5C8-926682D425F7}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="215269321"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step1" ID="{AFAB5779-32DB-4A88-A5C8-926682D425F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Block_Step2" ID="{12007876-7648-44A2-96A8-2E66944CA26B}" ShortID="49150463">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step2" ID="{E5A8330A-125D-4E06-A4E9-90D15CE0FC67}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="806460293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step2" ID="{E5A8330A-125D-4E06-A4E9-90D15CE0FC67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Block_Step3" ID="{C7591BCE-0998-4C59-963F-6A3933C3E506}" ShortID="57649854">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step3" ID="{24A24884-C666-499F-A1CE-9CC6B34A35ED}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="441333261"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step3" ID="{24A24884-C666-499F-A1CE-9CC6B34A35ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Block_Step4" ID="{89C9B4D7-E773-4F07-88B2-A9834DC92183}" ShortID="208253519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step4" ID="{FE0B9AFD-0304-4C8A-A31C-E0B039F0D458}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="657988860"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step4" ID="{FE0B9AFD-0304-4C8A-A31C-E0B039F0D458}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Block_Step5" ID="{AE36D0B7-A742-430B-A0BE-E603DDA3A9B2}" ShortID="79847664">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step5" ID="{458025CB-3427-406D-BE49-3AC1C84DAA53}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001130212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step5" ID="{458025CB-3427-406D-BE49-3AC1C84DAA53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Block_Step6" ID="{59702589-B468-434A-B171-3ED011CF65FC}" ShortID="675881455">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Block_Step6" ID="{E8982BA1-0384-4ED5-9289-93387776D6DA}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Block_Step6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24443109"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Block_Step6" ID="{E8982BA1-0384-4ED5-9289-93387776D6DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footsteps_Stairs" ID="{1F12290D-6DD0-43D6-A3CE-33843E539589}" ShortID="274508132">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Coin Game - Stair_Step1" ID="{5ABD863D-2378-4523-933D-20CA78D0F810}" ShortID="168078429">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step1" ID="{99791497-0B61-4893-8EC7-6D9C1FA63805}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057813653"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step1" ID="{99791497-0B61-4893-8EC7-6D9C1FA63805}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Stair_Step2" ID="{142D34B4-83A6-496A-8A05-FBF3CC5F6C1E}" ShortID="550987693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step2" ID="{6362BA59-E8EA-491C-9D4D-861B9D5CF2CB}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917510743"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step2" ID="{6362BA59-E8EA-491C-9D4D-861B9D5CF2CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Stair_Step3" ID="{BCAFFBC9-FDB1-4587-A35B-D4007998E06A}" ShortID="639591240">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step3" ID="{4C8D8358-FCB2-4D70-BE69-04F37FEB6A45}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="968535423"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step3" ID="{4C8D8358-FCB2-4D70-BE69-04F37FEB6A45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Stair_Step4" ID="{7A37E250-A42F-4898-8FC5-AEEAB5EF3463}" ShortID="889237857">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step4" ID="{24EC74AE-A1A2-4F29-88A1-2AA922694AF6}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="231062648"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step4" ID="{24EC74AE-A1A2-4F29-88A1-2AA922694AF6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Stair_Step5" ID="{01BF4A6A-D4F1-40BF-9D33-94B6BE1C4F28}" ShortID="70205086">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step5" ID="{E33DABA5-844F-4C33-9DCF-12FF54C5DED5}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604893996"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step5" ID="{E33DABA5-844F-4C33-9DCF-12FF54C5DED5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coin Game - Stair_Step6" ID="{7780DD79-B8A4-4800-B15C-31D7E368C31C}" ShortID="801976385">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coin Game - Stair_Step6" ID="{4262A5A9-B5B5-4A01-AFBF-6B52A72C81D7}">
+													<Language>SFX</Language>
+													<AudioFile>Coin Game - Stair_Step6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="411419591"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Coin Game - Stair_Step6" ID="{4262A5A9-B5B5-4A01-AFBF-6B52A72C81D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GroundedStartStop" ID="{D6D4ECCF-3941-44D1-82A1-AE8621EF7D28}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
+										<CustomState Name="" ID="{3A0F229A-7F84-429F-8C94-55B4B008939B}" ShortID="34273147">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+										<CustomState Name="" ID="{DD425B1B-E425-40FB-B88B-F664C7321D87}" ShortID="531036382">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="5"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Blocks" ID="{0EF2090A-8765-4D59-ACAD-A9EAACB4A8DF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Stairs" ID="{1F12290D-6DD0-43D6-A3CE-33843E539589}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Blocks" ID="{0EF2090A-8765-4D59-ACAD-A9EAACB4A8DF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stair" ID="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Stairs" ID="{1F12290D-6DD0-43D6-A3CE-33843E539589}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<RandomSequenceContainer Name="Jump_Grunt" ID="{097D1D7F-A184-4B55-B72D-7019ADA92444}" ShortID="763840579">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>26</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePriority" Type="bool" Value="True"/>
+								<Property Name="Priority" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{DBA5C437-683C-4F06-9A25-DF718469288E}" ShortID="986611710">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="New Modulator Time" ID="{5FF26BEF-B518-4978-A622-E75794332B6D}" WorkUnitID="{B5DC1AEA-8845-4CF7-9B53-DD1FC63E7645}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{03F4CA6C-9288-4EF9-8CA1-AED5710DAF75}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.10215</XPos>
+														<YPos>100</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1.5</XPos>
+														<YPos>-100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Coin Game - Jump_Grunt1" ID="{4128D2C5-FD93-430B-9B55-53622BFA999B}" ShortID="344597581">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-180</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>38</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin Game - Jump_Grunt1" ID="{B3C2131D-50E4-4738-9DF8-678C29674708}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Coin Game - Jump_Grunt1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1044859493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin Game - Jump_Grunt1" ID="{B3C2131D-50E4-4738-9DF8-678C29674708}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin Game - Jump_Grunt2" ID="{7493F582-6205-4295-A628-1FD292351F99}" ShortID="258753440">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin Game - Jump_Grunt2" ID="{1E14E1DA-90C3-4F43-A0AF-B9A9BB04F464}">
+											<Language>SFX</Language>
+											<AudioFile>Coin Game - Jump_Grunt2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328207132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin Game - Jump_Grunt2" ID="{1E14E1DA-90C3-4F43-A0AF-B9A9BB04F464}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin Game - Jump_Grunt3" ID="{65FEE765-3548-4FCE-98B4-8385FC8194EF}" ShortID="38176412">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin Game - Jump_Grunt3" ID="{5DF377F4-C888-45C4-8BAD-108D791AFB75}">
+											<Language>SFX</Language>
+											<AudioFile>Coin Game - Jump_Grunt3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449745348"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin Game - Jump_Grunt3" ID="{5DF377F4-C888-45C4-8BAD-108D791AFB75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin Game - Jump_Grunt4" ID="{71AA7D6F-22D4-4BAA-B024-D5B0EB91C8EB}" ShortID="385333436">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin Game - Jump_Grunt4" ID="{0409B85E-5A9E-4CF1-8288-01FC9ECB84A8}">
+											<Language>SFX</Language>
+											<AudioFile>Coin Game - Jump_Grunt4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696097302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin Game - Jump_Grunt4" ID="{0409B85E-5A9E-4CF1-8288-01FC9ECB84A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
