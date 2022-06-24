@@ -10,8 +10,13 @@
 								<Value>-96</Value>
 							</ValueList>
 						</Property>
-						<Property Name="ConeInnerAngle" Type="int32" Value="35"/>
-						<Property Name="ConeOuterAngle" Type="int32" Value="35"/>
+						<Property Name="ConeInnerAngle" Type="int32" Value="65"/>
+						<Property Name="ConeLowPassFilterValue" Type="int32">
+							<ValueList>
+								<Value>36</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -105,13 +110,7 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Log1</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>2.767232</XPos>
-											<YPos>64</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>Log3</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>16</XPos>

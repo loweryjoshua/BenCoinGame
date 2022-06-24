@@ -170,7 +170,18 @@ namespace StarterAssets
 			PostWwiseEvent wwiseEvent = gameObject.GetComponent<PostWwiseEvent>();
 
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			//float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			float targetSpeed;
+            if (_input.sprint)
+            {
+				targetSpeed = SprintSpeed;
+				footstepSpeed = 0.2f;
+			}
+            else
+            {
+				targetSpeed = MoveSpeed;
+				footstepSpeed = 0.3f;
+			}
 
 			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 

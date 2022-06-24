@@ -319,6 +319,11 @@
 										<MusicTrack Name="MiddleA-Pad1_120bpm3-4-L31-PM1_wav" ID="{55FC18FD-1582-4D74-A3BC-E1B7D18836F9}" ShortID="367966309">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -1063,7 +1068,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1269,6 +1274,7 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{D1E3D24A-8FFC-44D1-A7CD-11B5A0F4E427}" ShortID="146560608">
 									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>

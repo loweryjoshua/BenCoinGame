@@ -12,7 +12,6 @@ public class ButtonScripts : MonoBehaviour
     public void PlayGame()
     {
         StartCoroutine(Waiter());
-        
     }
 
     IEnumerator Waiter()
@@ -23,7 +22,6 @@ public class ButtonScripts : MonoBehaviour
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("Adventure");
     }
-
 
 
     public void Credits()
