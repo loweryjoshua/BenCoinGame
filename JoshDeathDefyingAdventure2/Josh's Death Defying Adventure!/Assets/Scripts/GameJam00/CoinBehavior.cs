@@ -6,9 +6,6 @@ using UnityEngine;
 public class CoinBehavior : MonoBehaviour
 {
     private GameObject GameManager;
-    private AkTransform akTransform;
-    private Vector3 orientationTop;
-    private Vector3 orientationFront;
 
     // Start is called before the first frame update
     void Start()
