@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}" Language="SFX" Hash="3233202924">
+		<SoundBank Id="393239870" GUID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}" Language="SFX" Hash="1503187579">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -32,7 +32,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2695218137" Name="Coin_Drone" ObjectPath="\Events\Objects\Coin_Drone" GUID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}" MaxAttenuation="7." DurationType="Infinite">
+				<Event Id="2695218137" Name="Coin_Drone" ObjectPath="\Events\Objects\Coin_Drone" GUID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}" MaxAttenuation="15." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="981207449" Language="SFX">
 							<ShortName>Coin Game_Drone - Mojito.wav</ShortName>
@@ -40,6 +40,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4195754977" Name="Coin_DroneStop" ObjectPath="\Events\Objects\Coin_DroneStop" GUID="{D1906845-B086-4EDB-B558-9B97613A25E6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="98870701" Name="Coin_Pickup" ObjectPath="\Events\Objects\Coin_Pickup" GUID="{F28754BE-4A58-4332-BD45-13DCF92AF789}" DurationType="OneShot" DurationMin="3.263024" DurationMax="3.263024">
 					<IncludedMemoryFiles>
 						<File Id="992970694" Language="SFX">
@@ -237,7 +238,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3604647259" GUID="{CA338685-BA41-4155-A26F-20E4CF1CA706}" Language="SFX" Hash="1486506">
+		<SoundBank Id="3604647259" GUID="{CA338685-BA41-4155-A26F-20E4CF1CA706}" Language="SFX" Hash="2353980811">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
@@ -297,7 +298,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{23380181-8B0A-4F88-AB3B-383B117F608A}" Language="SFX" Hash="749483761">
+		<SoundBank Id="3991942870" GUID="{23380181-8B0A-4F88-AB3B-383B117F608A}" Language="SFX" Hash="2580138045">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

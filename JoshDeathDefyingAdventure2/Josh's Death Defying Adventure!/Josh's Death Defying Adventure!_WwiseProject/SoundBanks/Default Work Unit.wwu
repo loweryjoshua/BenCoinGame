@@ -12,6 +12,7 @@
 						<ObjectRef Name="Reset" ID="{83943CC1-E27D-4830-94CC-BB0D370FDE3F}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jump_Grunt" ID="{88449CF2-72E2-494D-94BD-C8C21D4F3287}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="New_Step" ID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_DroneStop" ID="{D1906845-B086-4EDB-B558-9B97613A25E6}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

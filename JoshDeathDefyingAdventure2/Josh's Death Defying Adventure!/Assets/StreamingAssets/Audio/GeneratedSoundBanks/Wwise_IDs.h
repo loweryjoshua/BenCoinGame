@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BLOCK_DROPPING = 1948853988U;
         static const AkUniqueID COIN_DRONE = 2695218137U;
+        static const AkUniqueID COIN_DRONESTOP = 4195754977U;
         static const AkUniqueID COIN_PICKUP = 98870701U;
         static const AkUniqueID GAMESTART = 4058101365U;
         static const AkUniqueID JUMP_GRUNT = 2871505082U;

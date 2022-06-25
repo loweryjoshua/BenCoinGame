@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 569d666ab609794a8cc09657b44a3b6b
     GuidInternal: 
-    m_lastTime: -8585455057458127377
+    m_lastTime: -8585454790151441003
     List:
     - name: MainMenu
       guid: 858633ca41ba5541a26f20e4cf1ca706
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: 2066e471fe9d3f41b0a53f7a234f1945
     GuidInternal: 
-    m_lastTime: -8585455057490902701
+    m_lastTime: -8585454790151111301
     List:
     - name: Block_Dropping
       guid: 2cf0125f391ef64397162d376c55c42e
@@ -212,9 +212,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 84830581d3dbb646b8311bf4f2674ae1
       Path: Events\Objects\Coin_Drone
-      maxAttenuation: 7
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
+    - name: Coin_DroneStop
+      guid: 456890d186b0db4eb5589b97613a25e6
+      id: 4195754977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: 2066e471fe9d3f41b0a53f7a234f1945
+      - ElementName: Coin_DroneStop
+        ObjectType: 3
+        guid: 456890d186b0db4eb5589b97613a25e6
+      Path: Events\Objects\Coin_DroneStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Coin_Pickup
       guid: be5487f2584a3243bd4513dcf92af789
       id: 98870701
@@ -642,7 +659,7 @@ MonoBehaviour:
     m_lastTime: -8585455057458067399
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000007000000090000000b00000010000000130000001b0000001c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

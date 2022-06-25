@@ -36,6 +36,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Coin_DroneStop" ID="{D1906845-B086-4EDB-B558-9B97613A25E6}">
+					<ChildrenList>
+						<Action Name="" ID="{1B66FFF1-773E-4638-9445-E4252C271B2B}" ShortID="1000426585">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin_Drone" ID="{51813075-C786-42F3-817F-4B9F5720CA13}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
