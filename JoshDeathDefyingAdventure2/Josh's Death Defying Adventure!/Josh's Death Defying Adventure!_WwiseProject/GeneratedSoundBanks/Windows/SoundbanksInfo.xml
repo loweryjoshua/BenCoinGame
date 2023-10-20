@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\52stu\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\52stu\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\52stu\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\52stu\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}" Language="SFX" Hash="1503187579">
+		<SoundBank Id="393239870" GUID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}" Language="SFX" Hash="2982478948">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -238,7 +238,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3604647259" GUID="{CA338685-BA41-4155-A26F-20E4CF1CA706}" Language="SFX" Hash="2353980811">
+		<SoundBank Id="3604647259" GUID="{CA338685-BA41-4155-A26F-20E4CF1CA706}" Language="SFX" Hash="2215822871">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
@@ -298,7 +298,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{23380181-8B0A-4F88-AB3B-383B117F608A}" Language="SFX" Hash="2580138045">
+		<SoundBank Id="3991942870" GUID="{23380181-8B0A-4F88-AB3B-383B117F608A}" Language="SFX" Hash="2369904954">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

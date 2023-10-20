@@ -1,0 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1266365513	GroundedStartStop			\Default Work Unit\GroundedStartStop	
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GroundedStartStop			
+	788884573	Stop	GroundedStartStop			
+	1281810935	Start	GroundedStartStop			
+	748895195	None	Music_Regions			
+	1731745708	MainGame	Music_Regions			
+	3966194980	Ending	Music_Regions			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1087715749	General Reverb			\Default Work Unit\General Reverb	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
