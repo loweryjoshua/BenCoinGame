@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" SchemaVersion="103" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
+<WwiseDocument Type="WorkUnit" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" SchemaVersion="123" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
 	<AudioObjects>
 		<WorkUnit Name="Objects" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" OwnerID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" PersistMode="Nested">
 			<ChildrenList>
@@ -45,7 +45,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Coin_Pickup" ID="{B6FE7924-112A-44AD-A914-02EB4A8085AB}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -104,7 +103,6 @@
 							</ChildrenList>
 						</Position>
 					</PositioningInfo>
-					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Coin Game_Drone - Mojito" ID="{9D158AC8-BCAD-4763-8DF7-09C09ECDDAD7}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -145,7 +143,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Coin Game - BlockDropping1" ID="{6E83D528-0FC6-4F84-8D61-4102B8E64AC6}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -168,7 +165,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Coin Game - BlockDropping2" ID="{294A3B4E-346B-4383-8B72-8C06E5163863}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -191,13 +187,11 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Coin Game - BlockDropping3" ID="{10A97752-1FC8-469E-B409-2C3879E9B4A6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists/>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

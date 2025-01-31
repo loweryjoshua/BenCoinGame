@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Reset
   id: 4017455162
   guid: 83943CC1-E27D-4830-94CC-BB0D370FDE3F
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

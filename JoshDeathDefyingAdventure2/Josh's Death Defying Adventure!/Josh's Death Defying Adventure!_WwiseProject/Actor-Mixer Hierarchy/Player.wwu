@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" SchemaVersion="103" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
+<WwiseDocument Type="WorkUnit" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" SchemaVersion="123" RootDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" ParentDocumentID="{16FABDEE-7A34-4726-A751-BF3C835983BE}">
 	<AudioObjects>
 		<WorkUnit Name="Player" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" OwnerID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" PersistMode="Nested">
 			<ChildrenList>
@@ -53,7 +53,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Reset" ID="{E7E7FFBA-0D63-4BA3-865E-AF445DADE0B4}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -80,9 +79,6 @@
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
 									<ObjectRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
-								</Reference>
-								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-									<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
@@ -133,7 +129,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step1" ID="{8E7A81FD-44A6-4A00-83C8-5E9BFE083DFE}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -156,7 +151,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step2" ID="{90F668BE-400C-4004-9AAA-5009F508723B}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -179,7 +173,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step3" ID="{FBA7A1E1-850B-45DB-A0FD-B22C27BF953B}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -202,7 +195,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step4" ID="{2F9DE5AF-EA29-4251-AA75-456D36E3DECB}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -225,7 +217,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step5" ID="{F68AEFB8-B02B-4000-B9F7-A7D86A7F4FD9}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -248,13 +239,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step6" ID="{C5216733-5EB1-4890-8AEE-7A03A726F2AC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps_Stairs" ID="{44D8E09B-78A5-4BDA-9717-E0CB5E141598}" ShortID="368470827">
 									<PropertyList>
@@ -267,9 +256,6 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
@@ -294,7 +280,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step1" ID="{4CE9B80D-B3FA-4DD7-A35B-D5373133E6E3}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -317,7 +302,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step2" ID="{61DB5CA4-969B-42B8-BE56-862E250AF075}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -340,7 +324,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step3" ID="{41D8AC98-8996-47D0-B5CD-035909AFF205}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -363,7 +346,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step4" ID="{FCC0A1D6-B3D6-46D3-9F96-9F99024EE337}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -386,7 +368,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step5" ID="{41882299-ED37-45EC-9768-F8E6DD41A3D9}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -409,13 +390,26 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step6" ID="{FC51907B-CA68-403A-9B65-80B309C15BF2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{40D733E0-C594-41CE-AAD4-DB97A2D86C68}" ShortID="766698662">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<StateInfo>
@@ -443,7 +437,33 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
-							<ObjectLists/>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{8E4A9683-03B9-42B6-B720-EC3308797952}" ShortID="515999092">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
+															<CustomState Name="" ID="{BEAC3E07-156B-47DF-999C-EACBBF620881}" ShortID="399482774"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+															<CustomState Name="" ID="{D08C14D6-0F1C-4627-9EA3-9E29393EC363}" ShortID="1057001278"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -491,19 +511,6 @@
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
 									<ObjectRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}" WorkUnitID="{9CA8B52E-7ED6-4A13-9A28-D1118AE7D406}"/>
-								</Reference>
-								<Reference Name="Effect1">
-									<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
-										<Effect Name="Low_Pass_20KHz (Custom)" ID="{67EB65FF-1975-4FE1-A42D-DE322584DDE2}" ShortID="518959672" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-											<PropertyList>
-												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="1933"/>
-												<Property Name="OnOffBand1" Type="bool" Value="False"/>
-												<Property Name="OnOffBand2" Type="bool" Value="False"/>
-											</PropertyList>
-										</Effect>
-									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
@@ -554,7 +561,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step1" ID="{AFAB5779-32DB-4A88-A5C8-926682D425F7}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -577,7 +583,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step2" ID="{E5A8330A-125D-4E06-A4E9-90D15CE0FC67}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -600,7 +605,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step3" ID="{24A24884-C666-499F-A1CE-9CC6B34A35ED}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -623,7 +627,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step4" ID="{FE0B9AFD-0304-4C8A-A31C-E0B039F0D458}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -646,7 +649,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step5" ID="{458025CB-3427-406D-BE49-3AC1C84DAA53}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -669,13 +671,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Block_Step6" ID="{E8982BA1-0384-4ED5-9289-93387776D6DA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps_Stairs" ID="{1F12290D-6DD0-43D6-A3CE-33843E539589}" ShortID="274508132">
 									<PropertyList>
@@ -688,9 +688,6 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7E4C630-B98D-4646-BE84-041F94E8A95C}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}"/>
@@ -715,7 +712,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step1" ID="{99791497-0B61-4893-8EC7-6D9C1FA63805}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -738,7 +734,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step2" ID="{6362BA59-E8EA-491C-9D4D-861B9D5CF2CB}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -761,7 +756,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step3" ID="{4C8D8358-FCB2-4D70-BE69-04F37FEB6A45}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -784,7 +778,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step4" ID="{24EC74AE-A1A2-4F29-88A1-2AA922694AF6}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -807,7 +800,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step5" ID="{E33DABA5-844F-4C33-9DCF-12FF54C5DED5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -830,13 +822,26 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Coin Game - Stair_Step6" ID="{4262A5A9-B5B5-4A01-AFBF-6B52A72C81D7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{D02C1047-68B6-4DD4-870F-B0F28BD43A7C}" ShortID="982291337">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<StateInfo>
@@ -864,7 +869,61 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
-							<ObjectLists/>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{7F18E3C1-D59F-4D08-A55E-1B2F2974861C}" ShortID="206422529">
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
+															<CustomState Name="" ID="{002B78E7-E711-4393-8AC1-6984A2B5EC29}" ShortID="735338652"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+															<CustomState Name="" ID="{02EB4D39-DB48-41CA-87DE-AFBA27D43B78}" ShortID="671453448"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{2FD09D20-E20D-4E6E-ADEA-4B40E6B10E1B}" ShortID="270349780">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom CreatedFrom="{830124FB-B9D5-4AE8-846E-E94A74652666}">
+															<Effect Name="Low_Pass_20KHz (Custom)" ID="{67EB65FF-1975-4FE1-A42D-DE322584DDE2}" ShortID="518959672" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+																	<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="1933"/>
+																	<Property Name="OnOffBand1" Type="bool" Value="False"/>
+																	<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Stop" ID="{43E1C352-A01E-4147-AF5D-4B585D8F63C0}"/>
+															<CustomState Name="" ID="{4C0CA5BF-C85B-4D18-B7D2-3E42468C916B}" ShortID="847895443"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+															<CustomState Name="" ID="{59BDF320-4FBA-4817-92DB-73214D57475F}" ShortID="537558586"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -908,39 +967,6 @@
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePriority" Type="bool" Value="True"/>
-								<Property Name="Priority" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{DBA5C437-683C-4F06-9A25-DF718469288E}" ShortID="986611710">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="New Modulator Time" ID="{5FF26BEF-B518-4978-A622-E75794332B6D}" WorkUnitID="{B5DC1AEA-8845-4CF7-9B53-DD1FC63E7645}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{03F4CA6C-9288-4EF9-8CA1-AED5710DAF75}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>100</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>0.10215</XPos>
-														<YPos>100</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>1.5</XPos>
-														<YPos>-100</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -999,7 +1025,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Coin Game - Jump_Grunt1" ID="{B3C2131D-50E4-4738-9DF8-678C29674708}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1022,7 +1047,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Coin Game - Jump_Grunt2" ID="{1E14E1DA-90C3-4F43-A0AF-B9A9BB04F464}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1045,7 +1069,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Coin Game - Jump_Grunt3" ID="{5DF377F4-C888-45C4-8BAD-108D791AFB75}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1068,16 +1091,57 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Coin Game - Jump_Grunt4" ID="{0409B85E-5A9E-4CF1-8288-01FC9ECB84A8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{DBA5C437-683C-4F06-9A25-DF718469288E}" ShortID="986611710">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Priority"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="New Modulator Time" ID="{5FF26BEF-B518-4978-A622-E75794332B6D}" WorkUnitID="{B5DC1AEA-8845-4CF7-9B53-DD1FC63E7645}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{03F4CA6C-9288-4EF9-8CA1-AED5710DAF75}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.10215</XPos>
+																		<YPos>100</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1.5</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

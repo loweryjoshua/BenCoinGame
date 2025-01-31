@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Coin_Drone
   id: 2695218137
   guid: 81058384-DBD3-46B6-B831-1BF4F2674AE1
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

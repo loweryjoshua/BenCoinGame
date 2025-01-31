@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Coin_Pickup
   id: 98870701
   guid: F28754BE-4A58-4332-BD45-13DCF92AF789
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

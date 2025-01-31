@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Coin_DroneStop
   id: 4195754977
   guid: D1906845-B086-4EDB-B558-9B97613A25E6
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

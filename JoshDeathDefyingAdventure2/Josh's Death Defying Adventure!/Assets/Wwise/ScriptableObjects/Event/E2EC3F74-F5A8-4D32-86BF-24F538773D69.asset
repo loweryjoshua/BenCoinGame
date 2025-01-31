@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Menu_MusicEnd
   id: 1428083659
   guid: E2EC3F74-F5A8-4D32-86BF-24F538773D69
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
