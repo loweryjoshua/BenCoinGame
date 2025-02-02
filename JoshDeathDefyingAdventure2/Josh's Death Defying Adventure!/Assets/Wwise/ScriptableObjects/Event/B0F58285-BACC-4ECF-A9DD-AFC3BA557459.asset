@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: MainGame_Music
   id: 4271964152
   guid: B0F58285-BACC-4ECF-A9DD-AFC3BA557459
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

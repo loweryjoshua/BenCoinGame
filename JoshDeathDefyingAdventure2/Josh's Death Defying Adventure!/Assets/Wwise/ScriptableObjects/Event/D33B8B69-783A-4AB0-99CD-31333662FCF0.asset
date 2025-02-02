@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Menu_MusicStart
   id: 522022064
   guid: D33B8B69-783A-4AB0-99CD-31333662FCF0
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

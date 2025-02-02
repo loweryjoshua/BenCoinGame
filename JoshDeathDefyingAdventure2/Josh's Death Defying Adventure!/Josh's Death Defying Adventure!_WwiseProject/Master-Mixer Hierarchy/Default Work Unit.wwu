@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}" SchemaVersion="123">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{DAF4D2A3-6DB6-4CA4-B2DC-22E7F41A9D7B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{85647284-0E19-491F-941C-A5D77DA65A64}" WorkUnitID="{4AE55BF1-D646-469B-95D9-AD5AFD4F917D}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
 				</Bus>
 				<Bus Name="General Reverb" ID="{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{85647284-0E19-491F-941C-A5D77DA65A64}" WorkUnitID="{4AE55BF1-D646-469B-95D9-AD5AFD4F917D}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-							<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{2BF17BEB-EBBF-4CE6-8C39-C5EF47DDC7F1}" ShortID="747616848">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

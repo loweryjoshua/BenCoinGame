@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Jump_Grunt
   id: 2871505082
   guid: 88449CF2-72E2-494D-94BD-C8C21D4F3287
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

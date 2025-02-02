@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: New_Step
   id: 874182518
   guid: A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: GameStart
   id: 4058101365
   guid: 2D31FE6E-35AD-42BD-ACA9-7AEB6954BAF5
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

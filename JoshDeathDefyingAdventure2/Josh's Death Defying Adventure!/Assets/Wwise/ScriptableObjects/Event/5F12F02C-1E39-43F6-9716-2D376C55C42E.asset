@@ -15,3 +15,5 @@ MonoBehaviour:
   objectName: Block_Dropping
   id: 1948853988
   guid: 5F12F02C-1E39-43F6-9716-2D376C55C42E
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

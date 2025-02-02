@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" SchemaVersion="123">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{16FABDEE-7A34-4726-A751-BF3C835983BE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -47,7 +47,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="GameStart_SFX" ID="{4415F7D4-A30E-41DF-8242-43977422322E}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -94,16 +93,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Reset" ID="{F3952DDC-0C87-4250-BC33-A902D1DD9AD3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="World" ID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" ShortID="557048477">
 					<ReferenceList>
@@ -118,7 +114,6 @@
 						<WorkUnit Name="Player" ID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}" PersistMode="Reference"/>
 						<WorkUnit Name="Objects" ID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}" PersistMode="Reference"/>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
