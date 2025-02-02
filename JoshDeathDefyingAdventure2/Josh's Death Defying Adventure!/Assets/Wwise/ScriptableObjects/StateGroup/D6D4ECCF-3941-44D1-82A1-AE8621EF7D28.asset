@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5cfa38c80c6054885674f3f3d4d7a7, type: 3}
+  m_Name: D6D4ECCF-3941-44D1-82A1-AE8621EF7D28
+  m_EditorClassIdentifier: 
+  objectName: GroundedStartStop
+  id: 1266365513
+  guid: D6D4ECCF-3941-44D1-82A1-AE8621EF7D28

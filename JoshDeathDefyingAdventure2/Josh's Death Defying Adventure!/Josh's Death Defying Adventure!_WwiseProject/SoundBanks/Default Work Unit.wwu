@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A669D56-09B6-4A79-8CC0-9657B44A3B6B}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{6A669D56-09B6-4A79-8CC0-9657B44A3B6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Coin_Pickup" ID="{F28754BE-4A58-4332-BD45-13DCF92AF789}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Block_Dropping" ID="{5F12F02C-1E39-43F6-9716-2D376C55C42E}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_Drone" ID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump_Landing" ID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reset" ID="{83943CC1-E27D-4830-94CC-BB0D370FDE3F}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump_Grunt" ID="{88449CF2-72E2-494D-94BD-C8C21D4F3287}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="New_Step" ID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}" WorkUnitID="{A7F9D8B6-5DE2-4330-897D-F7F643958961}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_DroneStop" ID="{D1906845-B086-4EDB-B558-9B97613A25E6}" WorkUnitID="{71E46620-9DFE-413F-B0A5-3F7A234F1945}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{23380181-8B0A-4F88-AB3B-383B117F608A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainGame_Music" ID="{B0F58285-BACC-4ECF-A9DD-AFC3BA557459}" WorkUnitID="{68DF9F1A-5FC0-4662-BF93-DC719530A77B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MainMenu" ID="{CA338685-BA41-4155-A26F-20E4CF1CA706}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GameStart" ID="{2D31FE6E-35AD-42BD-ACA9-7AEB6954BAF5}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_MusicStart" ID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_MusicEnd" ID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

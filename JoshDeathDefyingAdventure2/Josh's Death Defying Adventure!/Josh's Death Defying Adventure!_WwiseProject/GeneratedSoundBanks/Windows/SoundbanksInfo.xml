@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\GameJamProjects\JoshDeathDefyingAdventure2\Josh's Death Defying Adventure!\Josh's Death Defying Adventure!_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" GUID="{5B602C2F-6A8A-4991-A170-AC55774A54F6}" Language="SFX" Hash="1503187579">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1948853988" Name="Block_Dropping" ObjectPath="\Events\Objects\Block_Dropping" GUID="{5F12F02C-1E39-43F6-9716-2D376C55C42E}" MaxAttenuation="16." DurationType="OneShot" DurationMin="2.989274" DurationMax="2.989274">
+					<IncludedMemoryFiles>
+						<File Id="51934902" Language="SFX">
+							<ShortName>Coin Game - BlockDropping2.wav</ShortName>
+							<Path>SFX\Coin Game - BlockDropping2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="536036247" Language="SFX">
+							<ShortName>Coin Game - BlockDropping3.wav</ShortName>
+							<Path>SFX\Coin Game - BlockDropping3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="985410419" Language="SFX">
+							<ShortName>Coin Game - BlockDropping1.wav</ShortName>
+							<Path>SFX\Coin Game - BlockDropping1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2695218137" Name="Coin_Drone" ObjectPath="\Events\Objects\Coin_Drone" GUID="{81058384-DBD3-46B6-B831-1BF4F2674AE1}" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="981207449" Language="SFX">
+							<ShortName>Coin Game_Drone - Mojito.wav</ShortName>
+							<Path>SFX\Coin Game_Drone - Mojito_8857794B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4195754977" Name="Coin_DroneStop" ObjectPath="\Events\Objects\Coin_DroneStop" GUID="{D1906845-B086-4EDB-B558-9B97613A25E6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="98870701" Name="Coin_Pickup" ObjectPath="\Events\Objects\Coin_Pickup" GUID="{F28754BE-4A58-4332-BD45-13DCF92AF789}" DurationType="OneShot" DurationMin="3.263024" DurationMax="3.263024">
+					<IncludedMemoryFiles>
+						<File Id="992970694" Language="SFX">
+							<ShortName>Coin_Pickup.wav</ShortName>
+							<Path>SFX\Coin_Pickup_F8A4004E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2871505082" Name="Jump_Grunt" ObjectPath="\Events\Player\Moving\Jump_Grunt" GUID="{88449CF2-72E2-494D-94BD-C8C21D4F3287}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="328207132" Language="SFX">
+							<ShortName>Coin Game - Jump_Grunt2.wav</ShortName>
+							<Path>SFX\Coin Game - Jump_Grunt2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="449745348" Language="SFX">
+							<ShortName>Coin Game - Jump_Grunt3.wav</ShortName>
+							<Path>SFX\Coin Game - Jump_Grunt3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="696097302" Language="SFX">
+							<ShortName>Coin Game - Jump_Grunt4.wav</ShortName>
+							<Path>SFX\Coin Game - Jump_Grunt4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2883244301" Name="Jump_Landing" ObjectPath="\Events\Player\Moving\Jump_Landing" GUID="{7B003766-D1E4-47AA-AF45-BD0901BDC30D}" DurationType="OneShot" DurationMin="0.746054" DurationMax="1.05">
+					<IncludedMemoryFiles>
+						<File Id="24443109" Language="SFX">
+							<ShortName>Coin Game - Block_Step6.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="215269321" Language="SFX">
+							<ShortName>Coin Game - Block_Step1.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="231062648" Language="SFX">
+							<ShortName>Coin Game - Stair_Step4.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="411419591" Language="SFX">
+							<ShortName>Coin Game - Stair_Step6.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="441333261" Language="SFX">
+							<ShortName>Coin Game - Block_Step3.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="604893996" Language="SFX">
+							<ShortName>Coin Game - Stair_Step5.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="657988860" Language="SFX">
+							<ShortName>Coin Game - Block_Step4.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806460293" Language="SFX">
+							<ShortName>Coin Game - Block_Step2.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="917510743" Language="SFX">
+							<ShortName>Coin Game - Stair_Step2.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="968535423" Language="SFX">
+							<ShortName>Coin Game - Stair_Step3.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1001130212" Language="SFX">
+							<ShortName>Coin Game - Block_Step5.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1057813653" Language="SFX">
+							<ShortName>Coin Game - Stair_Step1.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}">
+							<Media>
+								<File Id="24443109"/>
+								<File Id="215269321"/>
+								<File Id="441333261"/>
+								<File Id="657988860"/>
+								<File Id="806460293"/>
+								<File Id="1001130212"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}">
+							<Media>
+								<File Id="231062648"/>
+								<File Id="411419591"/>
+								<File Id="604893996"/>
+								<File Id="917510743"/>
+								<File Id="968535423"/>
+								<File Id="1057813653"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="874182518" Name="New_Step" ObjectPath="\Events\Player\Moving\New_Step" GUID="{A15DC7B6-5E8C-4B20-955A-2C9B85F51F6B}" DurationType="OneShot" DurationMin="0.696054" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="24443109" Language="SFX">
+							<ShortName>Coin Game - Block_Step6.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="215269321" Language="SFX">
+							<ShortName>Coin Game - Block_Step1.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="231062648" Language="SFX">
+							<ShortName>Coin Game - Stair_Step4.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="411419591" Language="SFX">
+							<ShortName>Coin Game - Stair_Step6.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="441333261" Language="SFX">
+							<ShortName>Coin Game - Block_Step3.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="604893996" Language="SFX">
+							<ShortName>Coin Game - Stair_Step5.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="657988860" Language="SFX">
+							<ShortName>Coin Game - Block_Step4.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806460293" Language="SFX">
+							<ShortName>Coin Game - Block_Step2.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="917510743" Language="SFX">
+							<ShortName>Coin Game - Stair_Step2.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="968535423" Language="SFX">
+							<ShortName>Coin Game - Stair_Step3.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1001130212" Language="SFX">
+							<ShortName>Coin Game - Block_Step5.wav</ShortName>
+							<Path>SFX\Coin Game - Block_Step5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1057813653" Language="SFX">
+							<ShortName>Coin Game - Stair_Step1.wav</ShortName>
+							<Path>SFX\Coin Game - Stair_Step1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}">
+							<Media>
+								<File Id="24443109"/>
+								<File Id="215269321"/>
+								<File Id="441333261"/>
+								<File Id="657988860"/>
+								<File Id="806460293"/>
+								<File Id="1001130212"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}">
+							<Media>
+								<File Id="231062648"/>
+								<File Id="411419591"/>
+								<File Id="604893996"/>
+								<File Id="917510743"/>
+								<File Id="968535423"/>
+								<File Id="1057813653"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4017455162" Name="Reset" ObjectPath="\Events\Player\Reset" GUID="{83943CC1-E27D-4830-94CC-BB0D370FDE3F}" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
+					<IncludedMemoryFiles>
+						<File Id="406813184" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type" GUID="{BD539975-0933-461F-9913-D3FAAF50FF23}">
+					<Switches>
+						<Switch Id="4001580976" Name="Block" ObjectPath="\Switches\Default Work Unit\Surface_Type\Block" GUID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
+						<Switch Id="1164367372" Name="Stair" ObjectPath="\Switches\Default Work Unit\Surface_Type\Stair" GUID="{EBB1E8BD-04E6-4C9A-8D98-DA5FF74CB953}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3160635894">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3604647259" GUID="{CA338685-BA41-4155-A26F-20E4CF1CA706}" Language="SFX" Hash="2353980811">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4058101365" Name="GameStart" ObjectPath="\Events\UI\GameStart" GUID="{2D31FE6E-35AD-42BD-ACA9-7AEB6954BAF5}" DurationType="OneShot" DurationMin="4.990566" DurationMax="4.990566">
+					<IncludedMemoryFiles>
+						<File Id="804928423" Language="SFX">
+							<ShortName>Reset.wav</ShortName>
+							<Path>SFX\Reset_1214EA6D.wem</Path>
+						</File>
+						<File Id="819622775" Language="SFX">
+							<ShortName>GameStart_SFX.wav</ShortName>
+							<Path>SFX\GameStart_SFX_81EFBDEA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1428083659" Name="Menu_MusicEnd" ObjectPath="\Events\UI\Menu_MusicEnd" GUID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="522022064" Name="Menu_MusicStart" ObjectPath="\Events\UI\Menu_MusicStart" GUID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="88564371" Language="SFX">
+							<ShortName>Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="104286455" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="176159737" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="375971432" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="505585677" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="601134768" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="649949475" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="705828321" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="770052488" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" GUID="{23380181-8B0A-4F88-AB3B-383B117F608A}" Language="SFX" Hash="2580138045">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4271964152" Name="MainGame_Music" ObjectPath="\Events\Music\MainGame_Music" GUID="{B0F58285-BACC-4ECF-A9DD-AFC3BA557459}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="77173963" Language="SFX">
+							<ShortName>Middle B\MiddleB-SynthLead_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-SynthLead_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="86024814" Language="SFX">
+							<ShortName>Middle A\MiddleA-HiArp1_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-HiArp1_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="88564371" Language="SFX">
+							<ShortName>Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="104286455" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="133260937" Language="SFX">
+							<ShortName>Middle A\MiddleA-SynthLead2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-SynthLead2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="176159737" Language="SFX">
+							<ShortName>Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-Pad1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="375971432" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="376526430" Language="SFX">
+							<ShortName>Middle A\MiddleA-GrandPiano_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-GrandPiano_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="505585677" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="517843742" Language="SFX">
+							<ShortName>Middle A\MiddleA-HiArp2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-HiArp2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="593551412" Language="SFX">
+							<ShortName>Middle B\MiddleB-HiArp1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-HiArp1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="601134768" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad3_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="649949475" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="705828321" Language="SFX">
+							<ShortName>Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Pad1_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="739236727" Language="SFX">
+							<ShortName>EndingB-Mixdown_120bpm3-4-L31-PM1 - 05 Ending - B.wav</ShortName>
+							<Path>SFX\EndingB-Mixdown_120bpm3-4-L31-PM1 - 05 Ending - B_9EDFC787.wem</Path>
+						</File>
+						<File Id="770052488" Language="SFX">
+							<ShortName>Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-Bass2_120bpm3-4-L31-PM1.wav_9EDFC787.wem</Path>
+						</File>
+						<File Id="828087746" Language="SFX">
+							<ShortName>Intro-Lead_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Intro-Lead_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="871059586" Language="SFX">
+							<ShortName>Middle B\MiddleB-HiArp2_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle B\MiddleB-HiArp2_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+						<File Id="941391736" Language="SFX">
+							<ShortName>EndingA-Mixdown_120bpm3-4-L31-PM1 - 04 Ending - A.wav</ShortName>
+							<Path>SFX\EndingA-Mixdown_120bpm3-4-L31-PM1 - 04 Ending - A_9EDFC787.wem</Path>
+						</File>
+						<File Id="953495444" Language="SFX">
+							<ShortName>Middle A\MiddleA-SynthLead1_120bpm3-4-L31-PM1.wav</ShortName>
+							<Path>SFX\Middle A\MiddleA-SynthLead1_120bpm3-4-L31-PM1_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C50E2FBC-190F-4B93-8A94-B47D8A73447D}">
+							<Media>
+								<File Id="739236727"/>
+								<File Id="941391736"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{76846C19-AE1E-4EDE-8CF8-02CCDBADF779}">
+							<Media>
+								<File Id="77173963"/>
+								<File Id="86024814"/>
+								<File Id="88564371"/>
+								<File Id="104286455"/>
+								<File Id="133260937"/>
+								<File Id="176159737"/>
+								<File Id="375971432"/>
+								<File Id="376526430"/>
+								<File Id="505585677"/>
+								<File Id="517843742"/>
+								<File Id="593551412"/>
+								<File Id="601134768"/>
+								<File Id="649949475"/>
+								<File Id="705828321"/>
+								<File Id="770052488"/>
+								<File Id="828087746"/>
+								<File Id="871059586"/>
+								<File Id="953495444"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9A365D33-DCCD-4272-A441-5F8092F9226E}">
+							<Media>
+								<File Id="77173963"/>
+								<File Id="86024814"/>
+								<File Id="88564371"/>
+								<File Id="104286455"/>
+								<File Id="133260937"/>
+								<File Id="176159737"/>
+								<File Id="375971432"/>
+								<File Id="376526430"/>
+								<File Id="505585677"/>
+								<File Id="517843742"/>
+								<File Id="593551412"/>
+								<File Id="601134768"/>
+								<File Id="649949475"/>
+								<File Id="705828321"/>
+								<File Id="770052488"/>
+								<File Id="828087746"/>
+								<File Id="871059586"/>
+								<File Id="953495444"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\Default Work Unit\Music_Regions" GUID="{A0A51905-4CE3-48C0-BFD6-E9455D1B2A56}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Regions\None" GUID="{9A365D33-DCCD-4272-A441-5F8092F9226E}"/>
+						<State Id="1731745708" Name="MainGame" ObjectPath="\States\Default Work Unit\Music_Regions\MainGame" GUID="{76846C19-AE1E-4EDE-8CF8-02CCDBADF779}"/>
+						<State Id="3966194980" Name="Ending" ObjectPath="\States\Default Work Unit\Music_Regions\Ending" GUID="{C50E2FBC-190F-4B93-8A94-B47D8A73447D}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

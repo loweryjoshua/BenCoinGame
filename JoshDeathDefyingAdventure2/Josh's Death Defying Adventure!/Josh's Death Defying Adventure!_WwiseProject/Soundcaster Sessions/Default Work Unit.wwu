@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A272F341-1EA5-4D31-8BA2-53CCB12A2726}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A272F341-1EA5-4D31-8BA2-53CCB12A2726}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{DF29AD8D-CC56-4C92-8385-098D8954791F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MusicRegions" ID="{81EEEE57-E074-4448-A1FE-EDA34250942D}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="World" ID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" WorkUnitID="{16FABDEE-7A34-4726-A751-BF3C835983BE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Ending" ID="{C6F4DC54-D25E-4B05-B60F-B15A2545C901}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player" ID="{B572F92B-94D0-40B5-98DA-94FCD58DCA02}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Middle" ID="{A4081916-4C4E-41BC-B689-EC4C93111CA7}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Coin_Pickup" ID="{9682F7FD-E67C-4DF6-82EA-234E0709D221}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu_MusicEnd" ID="{E2EC3F74-F5A8-4D32-86BF-24F538773D69}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu_MusicStart" ID="{D33B8B69-783A-4AB0-99CD-31333662FCF0}" WorkUnitID="{517F5A7C-017B-441E-AFC3-F935B3438AA0}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
+						<CurrentStateRef Name="MainGame" ID="{76846C19-AE1E-4EDE-8CF8-02CCDBADF779}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

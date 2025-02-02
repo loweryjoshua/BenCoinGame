@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<WwiseSettings>
+    <CreateWwiseGlobal>true</CreateWwiseGlobal>
+    <CreateWwiseListener>true</CreateWwiseListener>
+    <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
+    <WwiseProjectPath>../../Josh's Death Defying Adventure!/Josh's Death Defying Adventure!_WwiseProject/Josh's Death Defying Adventure!_WwiseProject.wproj</WwiseProjectPath>
+    <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise2024.1.1.8691</WwiseInstallationPathWindows>
+    <WwiseInstallationPathMac></WwiseInstallationPathMac>
+</WwiseSettings>

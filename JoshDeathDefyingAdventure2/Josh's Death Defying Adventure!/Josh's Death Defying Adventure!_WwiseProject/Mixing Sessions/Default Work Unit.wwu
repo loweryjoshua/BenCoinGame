@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{470BB9A9-DB0E-4F5C-A8DE-880A13E9478C}" SchemaVersion="123">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{470BB9A9-DB0E-4F5C-A8DE-880A13E9478C}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main Mix" ID="{E457FECE-7E63-447D-BC77-8FE3B2B41789}">
+					<ObjectList>
+						<ObjectRef Name="MusicRegions" ID="{81EEEE57-E074-4448-A1FE-EDA34250942D}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+						<ObjectRef Name="Music_Ending" ID="{C6F4DC54-D25E-4B05-B60F-B15A2545C901}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+						<ObjectRef Name="Music_Middle" ID="{A4081916-4C4E-41BC-B689-EC4C93111CA7}" WorkUnitID="{D889A676-DD73-4ACD-BDD6-7A297801807B}"/>
+						<ObjectRef Name="World" ID="{A1B2DEDB-1C15-4506-A81E-0D15EA589C08}" WorkUnitID="{16FABDEE-7A34-4726-A751-BF3C835983BE}"/>
+						<ObjectRef Name="Coin_Pickup" ID="{9682F7FD-E67C-4DF6-82EA-234E0709D221}" WorkUnitID="{6B933F41-5183-4E03-AAC0-636DC8CFFD8D}"/>
+						<ObjectRef Name="Player" ID="{B572F92B-94D0-40B5-98DA-94FCD58DCA02}" WorkUnitID="{16E69C95-75FC-4A1F-9FF2-DE4E017E51B6}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

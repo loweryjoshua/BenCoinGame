@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5DC1AEA-8845-4CF7-9B53-DD1FC63E7645}" SchemaVersion="123">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{B5DC1AEA-8845-4CF7-9B53-DD1FC63E7645}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="New Modulator Time" ID="{5FF26BEF-B518-4978-A622-E75794332B6D}" ShortID="542696259">
+					<PropertyList>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+						<Property Name="TimeModDuration" Type="Real64" Value="1.5"/>
+					</PropertyList>
+				</ModulatorTime>
+				<ModulatorTime Name="New Modulator Time_01" ID="{38EBDD71-EB90-4887-A405-25552AEF664A}" ShortID="339523358">
+					<PropertyList>
+						<Property Name="TimeModDuration" Type="Real64" Value="1.5"/>
+					</PropertyList>
+				</ModulatorTime>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>
