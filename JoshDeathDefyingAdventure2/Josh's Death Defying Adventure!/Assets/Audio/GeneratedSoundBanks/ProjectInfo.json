@@ -1,0 +1,43 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Josh's Death Defying Adventure!_WwiseProject",
+   "GUID": "{4C552325-AA14-454D-8F17-24F207194522}",
+   "Generator": "2025.1.7.9143"
+  },
+  "CacheRoot": "../../../Josh's Death Defying Adventure!_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Android",
+    "GUID": "{CA45CF4D-344E-4D05-A67F-F158FB5E55D7}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "../../StreamingAssets/Audio/GeneratedSoundBanks/Android"
+   },
+   {
+    "Name": "Mac",
+    "GUID": "{B20F43B6-6215-45AB-BE42-710F6476ACA3}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../StreamingAssets/Audio/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{20EA7FEF-D578-4984-8641-FBE3A3B7184D}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../StreamingAssets/Audio/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{114E4077-D9A5-439B-BEC1-E2D40F285212}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{592C18D1-BE2F-95FC-F8E6-C79229291911}"
+ }
+}

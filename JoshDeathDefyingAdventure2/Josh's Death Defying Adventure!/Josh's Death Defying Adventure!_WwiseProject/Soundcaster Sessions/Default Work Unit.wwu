@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A272F341-1EA5-4D31-8BA2-53CCB12A2726}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{A272F341-1EA5-4D31-8BA2-53CCB12A2726}" SchemaVersion="133">
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{A272F341-1EA5-4D31-8BA2-53CCB12A2726}" PersistMode="Standalone">
 			<ChildrenList>
@@ -38,14 +38,6 @@
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Start" ID="{B6FFA282-D5F4-4D6E-938E-57B8C53E8538}"/>
-						<CurrentStateRef Name="MainGame" ID="{76846C19-AE1E-4EDE-8CF8-02CCDBADF779}"/>
-					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Block" ID="{6DAE948B-A4F0-424D-A5A1-1D9C5B6C40BC}"/>
-					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

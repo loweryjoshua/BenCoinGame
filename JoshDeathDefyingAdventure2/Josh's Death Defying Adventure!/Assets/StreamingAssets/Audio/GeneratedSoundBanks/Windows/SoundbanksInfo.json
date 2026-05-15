@@ -3,7 +3,7 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "154",
+  "SoundBankVersion": "172",
   "RootPaths": {
    "ProjectRoot": "../../../../../Josh's Death Defying Adventure!_WwiseProject",
    "SourceFilesRoot": "../../../../../Josh's Death Defying Adventure!_WwiseProject/.cache",
@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{5B602C2F-6A8A-4991-A170-AC55774A54F6}",
     "Language": "SFX",
-    "Hash": "{40944489-FBDF-0BDB-6389-52CF450DA399}",
+    "Hash": "{23AD5E92-A08F-1FCA-ABBB-6E7397EA8ADE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -197,7 +197,7 @@
       {
        "Id": "518959672",
        "Name": "Low_Pass_20KHz (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\World\\Player\\Player\\JumpLanding_Surface\\[Effect Slot [1]: (Parametric EQ)]\\Low_Pass_20KHz (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\World\\Player\\Player\\JumpLanding_Surface\\[Effect Slot [1]: (Parametric EQ)]\\Low_Pass_20KHz (Custom)",
        "GUID": "{67EB65FF-1975-4FE1-A42D-DE322584DDE2}",
        "LibName": "Wwise Parametric EQ",
        "LibId": "6881283"
@@ -500,7 +500,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{2E0B6252-09CE-5030-DAD6-019992C76FC7}",
+    "Hash": "{0E642BAC-EFD9-1444-6B9C-D1ACA6BCECAD}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -519,7 +519,7 @@
       {
        "Id": "2317455096",
        "Name": "No_Output",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
        "GUID": "{1D1B4606-0CFE-448E-A1AA-8B0AE854939C}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -527,7 +527,7 @@
       {
        "Id": "3859886410",
        "Name": "System",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
        "GUID": "{85647284-0E19-491F-941C-A5D77DA65A64}",
        "LibName": "System",
        "LibId": "11403271"
@@ -538,7 +538,7 @@
      {
       "Id": "1087715749",
       "Name": "General Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\General Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\General Reverb",
       "GUID": "{05EE2CE2-E722-40FB-9E94-ED6876EE9F53}",
       "PluginRefs": {
        "ShareSets": [
@@ -551,7 +551,7 @@
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
@@ -637,7 +637,7 @@
     "Type": "User",
     "GUID": "{CA338685-BA41-4155-A26F-20E4CF1CA706}",
     "Language": "SFX",
-    "Hash": "{3ACEED79-F3E3-F53A-83AA-603E3E6DDF30}",
+    "Hash": "{132CBA32-C8EA-1050-7D88-15B79EA07515}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainMenu",
     "ShortName": "MainMenu",
     "Path": "MainMenu.bnk",
@@ -802,7 +802,7 @@
     "Type": "User",
     "GUID": "{23380181-8B0A-4F88-AB3B-383B117F608A}",
     "Language": "SFX",
-    "Hash": "{EE45AB69-26C8-2EF9-02E3-B0D18D759861}",
+    "Hash": "{AE5B25C4-C324-FB07-2F11-67ED252F2A42}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -1153,6 +1153,6 @@
     ]
    }
   ],
-  "FileHash": "{C2AE02AB-74EF-FD7E-45C1-A2B30B681AA3}"
+  "FileHash": "{11840FE2-F810-45BF-17B5-EF208FF52F21}"
  }
 }
